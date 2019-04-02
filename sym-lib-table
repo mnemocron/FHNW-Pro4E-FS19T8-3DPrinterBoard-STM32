@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name FHNW-Pro4E-FS19T8-Library)(type Legacy)(uri C:/Users/simon/Documents/KiCAD/FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32/FHNW-Pro4E-FS19T8-Library.lib)(options "")(descr ""))
+  (lib (name power_driver-cache)(type Legacy)(uri ${KIPRJMOD}/library_parts/power_driver-cache.lib)(options "")(descr ""))
+  (lib (name power_driver-rescue)(type Legacy)(uri ${KIPRJMOD}/library_parts/power_driver-rescue.lib)(options "")(descr ""))
+  (lib (name power_in-cache)(type Legacy)(uri ${KIPRJMOD}/library_parts/power_in-cache.lib)(options "")(descr ""))
+  (lib (name TMC2660-cache)(type Legacy)(uri ${KIPRJMOD}/library_parts/TMC2660-cache.lib)(options "")(descr ""))
+  (lib (name TMC2660-rescue)(type Legacy)(uri ${KIPRJMOD}/library_parts/TMC2660-rescue.lib)(options "")(descr ""))
+)
