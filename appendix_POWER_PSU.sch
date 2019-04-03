@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 9
+Sheet 5 8
 Title ""
 Date ""
 Rev ""
@@ -14,17 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L power_in-cache:LM2675M-3.3 U?
-U 1 1 5CA3D946
-P 5200 2500
-F 0 "U?" H 5200 2967 50  0000 C CNN
-F 1 "LM2675M-3.3" H 5200 2876 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5250 2150 50  0001 L CIN
-F 3 "" H 5200 2500 50  0001 C CNN
-	1    5200 2500
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C C?
 U 1 1 5CA3D9D0
@@ -177,4 +166,17 @@ Connection ~ 5850 3100
 Wire Wire Line
 	5350 3100 5200 3100
 Connection ~ 5200 3100
+$Comp
+L Regulator_Switching:LM2675M-3.3 U?
+U 1 1 5CA4737B
+P 5200 2500
+F 0 "U?" H 5200 2967 50  0000 C CNN
+F 1 "LM2675M-3.3" H 5200 2876 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5250 2150 50  0001 L CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2675.pdf" H 5200 2500 50  0001 C CNN
+	1    5200 2500
+	1    0    0    -1  
+$EndComp
+Text Notes 4200 1750 0    50   ~ 0
+what about on/#off input?\n
 $EndSCHEMATC
