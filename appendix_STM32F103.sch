@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-cache
 EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 6
+Sheet 2 7
 Title "STM32f103 Controller"
 Date "2019-04-03"
 Rev "1"

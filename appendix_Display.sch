@@ -1,0 +1,662 @@
+EESchema Schematic File Version 4
+LIBS:FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 7
+Title "Display for Pro4E"
+Date ""
+Rev "1"
+Comp ""
+Comment1 "EIT Pro4 FS19 Team 8"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L FHNW-Pro4E-FS19T8-Library:NHD-C12864A1Z-FS(RGB)-FBW-HT1 U?
+U 1 1 5CA16F3D
+P 7500 1350
+F 0 "U?" H 7800 1600 50  0000 L CNN
+F 1 "NHD-C12864A1Z-FS(RGB)-FBW-HT1" H 7750 1500 50  0000 L CNN
+F 2 "" H 7500 1350 50  0001 C CNN
+F 3 "" H 7500 1350 50  0001 C CNN
+	1    7500 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5CA18BE7
+P 7500 900
+F 0 "#PWR?" H 7500 750 50  0001 C CNN
+F 1 "+3.3V" H 7515 1073 50  0000 C CNN
+F 2 "" H 7500 900 50  0001 C CNN
+F 3 "" H 7500 900 50  0001 C CNN
+	1    7500 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 900  7500 1050
+Wire Wire Line
+	7600 1150 7600 1050
+Wire Wire Line
+	7600 1050 7500 1050
+Connection ~ 7500 1050
+Wire Wire Line
+	7500 1050 7500 1150
+NoConn ~ 7700 1100
+NoConn ~ 7700 2600
+Wire Wire Line
+	7700 2550 7700 2600
+Wire Wire Line
+	7700 1100 7700 1150
+$Comp
+L power:GND #PWR?
+U 1 1 5CA1A7B2
+P 7450 2650
+F 0 "#PWR?" H 7450 2400 50  0001 C CNN
+F 1 "GND" H 7455 2477 50  0000 C CNN
+F 2 "" H 7450 2650 50  0001 C CNN
+F 3 "" H 7450 2650 50  0001 C CNN
+	1    7450 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 2650 7450 2550
+Text Label 6800 1400 0    50   ~ 0
+D_SCLK
+Text Label 6800 1500 0    50   ~ 0
+D_MOSI
+Text Label 6800 1600 0    50   ~ 0
+D_A0
+Text Label 6800 1700 0    50   ~ 0
+~D_RESET
+Text Label 6800 1800 0    50   ~ 0
+~D_CS
+$Comp
+L Device:Buzzer BZ?
+U 1 1 5C898B4D
+P 2400 4250
+F 0 "BZ?" H 2553 4279 50  0000 L CNN
+F 1 "KXG1205" H 2553 4188 50  0000 L CNN
+F 2 "" V 2375 4350 50  0001 C CNN
+F 3 "" V 2375 4350 50  0001 C CNN
+	1    2400 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 4100 2100 4050
+Wire Wire Line
+	2100 4050 2300 4050
+Wire Wire Line
+	2300 4150 2300 4050
+Connection ~ 2300 4050
+Wire Wire Line
+	2100 4400 2100 4450
+Wire Wire Line
+	2100 4450 2300 4450
+Wire Wire Line
+	2300 4450 2300 4350
+Wire Wire Line
+	2300 4550 2300 4450
+Connection ~ 2300 4450
+$Comp
+L power:GND #PWR?
+U 1 1 5C8C0137
+P 2300 5200
+F 0 "#PWR?" H 2300 4950 50  0001 C CNN
+F 1 "GND" H 2305 5027 50  0000 C CNN
+F 2 "" H 2300 5200 50  0001 C CNN
+F 3 "" H 2300 5200 50  0001 C CNN
+	1    2300 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C8C6F4F
+P 1800 4950
+F 0 "R?" H 1730 4904 50  0000 R CNN
+F 1 "10k" H 1700 5000 50  0000 R CNN
+F 2 "" V 1730 4950 50  0001 C CNN
+F 3 "~" H 1800 4950 50  0001 C CNN
+	1    1800 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2000 4750 1800 4750
+Wire Wire Line
+	2300 4950 2300 5150
+Wire Wire Line
+	1800 5100 1800 5150
+Wire Wire Line
+	1800 5150 2300 5150
+Connection ~ 2300 5150
+Wire Wire Line
+	2300 5150 2300 5200
+Wire Wire Line
+	1800 4750 1800 4800
+$Comp
+L Diode:1N4148W D?
+U 1 1 5CA38912
+P 2100 4250
+F 0 "D?" V 2100 4000 50  0000 L CNN
+F 1 "1N4148W" V 2200 3850 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 2100 4075 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 2100 4250 50  0001 C CNN
+	1    2100 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 5CA45AB5
+P 2200 4750
+F 0 "Q?" H 2406 4796 50  0000 L CNN
+F 1 "2N7002F" H 2406 4705 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2400 4675 50  0001 L CIN
+F 3 "http://www.farnell.com/datasheets/704088.pdf" H 2200 4750 50  0001 L CNN
+	1    2200 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C91B950
+P 1550 4750
+F 0 "R?" V 1343 4750 50  0000 C CNN
+F 1 "150" V 1434 4750 50  0000 C CNN
+F 2 "" V 1480 4750 50  0001 C CNN
+F 3 "~" H 1550 4750 50  0001 C CNN
+	1    1550 4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1800 4750 1700 4750
+Connection ~ 1800 4750
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5CA1C546
+P 2300 3850
+F 0 "#PWR?" H 2300 3700 50  0001 C CNN
+F 1 "+3.3V" H 2315 4023 50  0000 C CNN
+F 2 "" H 2300 3850 50  0001 C CNN
+F 3 "" H 2300 3850 50  0001 C CNN
+	1    2300 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 3850 2300 4050
+Wire Wire Line
+	1150 4750 1400 4750
+Text Label 1150 4750 0    50   ~ 0
+Buzzer
+$Comp
+L power:GND #PWR?
+U 1 1 5CA308EE
+P 7450 3900
+F 0 "#PWR?" H 7450 3650 50  0001 C CNN
+F 1 "GND" H 7455 3727 50  0000 C CNN
+F 2 "" H 7450 3900 50  0001 C CNN
+F 3 "" H 7450 3900 50  0001 C CNN
+	1    7450 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CA308F4
+P 6950 3650
+F 0 "R?" H 6880 3604 50  0000 R CNN
+F 1 "10k" H 6850 3700 50  0000 R CNN
+F 2 "" V 6880 3650 50  0001 C CNN
+F 3 "~" H 6950 3650 50  0001 C CNN
+	1    6950 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7150 3450 6950 3450
+Wire Wire Line
+	7450 3650 7450 3850
+Wire Wire Line
+	6950 3800 6950 3850
+Wire Wire Line
+	6950 3850 7450 3850
+Connection ~ 7450 3850
+Wire Wire Line
+	7450 3850 7450 3900
+Wire Wire Line
+	6950 3450 6950 3500
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 5CA30901
+P 7350 3450
+F 0 "Q?" H 7556 3496 50  0000 L CNN
+F 1 "2N7002F" H 7556 3405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7550 3375 50  0001 L CIN
+F 3 "http://www.farnell.com/datasheets/704088.pdf" H 7350 3450 50  0001 L CNN
+	1    7350 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CA30907
+P 6700 3450
+F 0 "R?" V 6493 3450 50  0000 C CNN
+F 1 "150" V 6584 3450 50  0000 C CNN
+F 2 "" V 6630 3450 50  0001 C CNN
+F 3 "~" H 6700 3450 50  0001 C CNN
+	1    6700 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6950 3450 6850 3450
+Connection ~ 6950 3450
+Text Label 6150 3450 0    50   ~ 0
+BK_Red
+Text Label 6800 1900 0    50   ~ 0
+D_Red
+Text Label 6800 2000 0    50   ~ 0
+D_Green
+Wire Wire Line
+	6800 2000 7100 2000
+Wire Wire Line
+	6800 2100 7100 2100
+Text Label 6800 2100 0    50   ~ 0
+D_Blue
+Wire Wire Line
+	6800 1400 7100 1400
+Wire Wire Line
+	6800 1500 7100 1500
+Wire Wire Line
+	6800 1700 7100 1700
+Wire Wire Line
+	6800 1800 7100 1800
+Text Label 7450 3150 0    50   ~ 0
+D_Red
+Wire Wire Line
+	6150 3450 6550 3450
+$Comp
+L power:GND #PWR?
+U 1 1 5CA5A3BC
+P 7450 5100
+F 0 "#PWR?" H 7450 4850 50  0001 C CNN
+F 1 "GND" H 7455 4927 50  0000 C CNN
+F 2 "" H 7450 5100 50  0001 C CNN
+F 3 "" H 7450 5100 50  0001 C CNN
+	1    7450 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CA5A3C2
+P 6950 4850
+F 0 "R?" H 6880 4804 50  0000 R CNN
+F 1 "10k" H 6850 4900 50  0000 R CNN
+F 2 "" V 6880 4850 50  0001 C CNN
+F 3 "~" H 6950 4850 50  0001 C CNN
+	1    6950 4850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7150 4650 6950 4650
+Wire Wire Line
+	7450 4850 7450 5050
+Wire Wire Line
+	6950 5000 6950 5050
+Wire Wire Line
+	6950 5050 7450 5050
+Connection ~ 7450 5050
+Wire Wire Line
+	7450 5050 7450 5100
+Wire Wire Line
+	6950 4650 6950 4700
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 5CA5A3CF
+P 7350 4650
+F 0 "Q?" H 7556 4696 50  0000 L CNN
+F 1 "2N7002F" H 7556 4605 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7550 4575 50  0001 L CIN
+F 3 "http://www.farnell.com/datasheets/704088.pdf" H 7350 4650 50  0001 L CNN
+	1    7350 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CA5A3D5
+P 6700 4650
+F 0 "R?" V 6493 4650 50  0000 C CNN
+F 1 "150" V 6584 4650 50  0000 C CNN
+F 2 "" V 6630 4650 50  0001 C CNN
+F 3 "~" H 6700 4650 50  0001 C CNN
+	1    6700 4650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6950 4650 6850 4650
+Connection ~ 6950 4650
+Text Label 6150 4650 0    50   ~ 0
+BK_Green
+Wire Wire Line
+	7450 4450 7450 4350
+Text Label 7450 4350 0    50   ~ 0
+D_Green
+Wire Wire Line
+	6150 4650 6550 4650
+$Comp
+L power:GND #PWR?
+U 1 1 5CA5CCA3
+P 7450 6250
+F 0 "#PWR?" H 7450 6000 50  0001 C CNN
+F 1 "GND" H 7455 6077 50  0000 C CNN
+F 2 "" H 7450 6250 50  0001 C CNN
+F 3 "" H 7450 6250 50  0001 C CNN
+	1    7450 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CA5CCA9
+P 6950 6000
+F 0 "R?" H 6880 5954 50  0000 R CNN
+F 1 "10k" H 6850 6050 50  0000 R CNN
+F 2 "" V 6880 6000 50  0001 C CNN
+F 3 "~" H 6950 6000 50  0001 C CNN
+	1    6950 6000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7150 5800 6950 5800
+Wire Wire Line
+	7450 6000 7450 6200
+Wire Wire Line
+	6950 6150 6950 6200
+Wire Wire Line
+	6950 6200 7450 6200
+Connection ~ 7450 6200
+Wire Wire Line
+	7450 6200 7450 6250
+Wire Wire Line
+	6950 5800 6950 5850
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 5CA5CCB6
+P 7350 5800
+F 0 "Q?" H 7556 5846 50  0000 L CNN
+F 1 "2N7002F" H 7556 5755 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7550 5725 50  0001 L CIN
+F 3 "http://www.farnell.com/datasheets/704088.pdf" H 7350 5800 50  0001 L CNN
+	1    7350 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CA5CCBC
+P 6700 5800
+F 0 "R?" V 6493 5800 50  0000 C CNN
+F 1 "150" V 6584 5800 50  0000 C CNN
+F 2 "" V 6630 5800 50  0001 C CNN
+F 3 "~" H 6700 5800 50  0001 C CNN
+	1    6700 5800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6950 5800 6850 5800
+Connection ~ 6950 5800
+Text Label 6150 5800 0    50   ~ 0
+BK_Blue
+Wire Wire Line
+	7450 5600 7450 5500
+Text Label 7450 5500 0    50   ~ 0
+D_Blue
+Wire Wire Line
+	6150 5800 6550 5800
+$Comp
+L Device:C C?
+U 1 1 5CA64135
+P 8250 1900
+F 0 "C?" H 8365 1946 50  0000 L CNN
+F 1 "100nF" H 8365 1855 50  0000 L CNN
+F 2 "" H 8288 1750 50  0001 C CNN
+F 3 "~" H 8250 1900 50  0001 C CNN
+	1    8250 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5CA65406
+P 8250 1650
+F 0 "#PWR?" H 8250 1500 50  0001 C CNN
+F 1 "+3.3V" H 8265 1823 50  0000 C CNN
+F 2 "" H 8250 1650 50  0001 C CNN
+F 3 "" H 8250 1650 50  0001 C CNN
+	1    8250 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 1650 8250 1750
+$Comp
+L power:GND #PWR?
+U 1 1 5CA6785D
+P 8250 2150
+F 0 "#PWR?" H 8250 1900 50  0001 C CNN
+F 1 "GND" H 8255 1977 50  0000 C CNN
+F 2 "" H 8250 2150 50  0001 C CNN
+F 3 "" H 8250 2150 50  0001 C CNN
+	1    8250 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 2150 8250 2050
+Wire Wire Line
+	6800 1600 7100 1600
+$Comp
+L FHNW-Pro4E-FS19T8-Library:EC11J0924411 SW?
+U 1 1 5CAA7FBD
+P 4350 2100
+F 0 "SW?" H 4350 2467 50  0000 C CNN
+F 1 "EC11J0924411" H 4350 2376 50  0000 C CNN
+F 2 "" H 4200 2260 50  0001 C CNN
+F 3 ".\\Datasheets\\EC11-1370822.pdf" H 4350 2360 50  0001 C CNN
+	1    4350 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CAA991F
+P 3700 2250
+F 0 "#PWR?" H 3700 2000 50  0001 C CNN
+F 1 "GND" H 3705 2077 50  0000 C CNN
+F 2 "" H 3700 2250 50  0001 C CNN
+F 3 "" H 3700 2250 50  0001 C CNN
+	1    3700 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2250 3700 2100
+Wire Wire Line
+	3700 2100 4050 2100
+$Comp
+L power:GND #PWR?
+U 1 1 5CAAC0FF
+P 4700 2250
+F 0 "#PWR?" H 4700 2000 50  0001 C CNN
+F 1 "GND" H 4705 2077 50  0000 C CNN
+F 2 "" H 4700 2250 50  0001 C CNN
+F 3 "" H 4700 2250 50  0001 C CNN
+	1    4700 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 2250 4700 2200
+Wire Wire Line
+	4700 2200 4650 2200
+Text Label 3750 2000 0    50   ~ 0
+ENC_A
+Text Label 3750 2200 0    50   ~ 0
+ENC_B
+Wire Wire Line
+	3750 2200 4050 2200
+Wire Wire Line
+	4050 2000 3750 2000
+Text Label 4950 2000 2    50   ~ 0
+Button
+Wire Wire Line
+	4650 2000 4950 2000
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 5CAC0B5C
+P 2400 1350
+F 0 "FB?" V 2163 1350 50  0000 C CNN
+F 1 "FerriteBead" V 2254 1350 50  0000 C CNN
+F 2 "" V 2330 1350 50  0001 C CNN
+F 3 "~" H 2400 1350 50  0001 C CNN
+	1    2400 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5CAC97EF
+P 2800 1300
+F 0 "#PWR?" H 2800 1150 50  0001 C CNN
+F 1 "+3.3V" H 2815 1473 50  0000 C CNN
+F 2 "" H 2800 1300 50  0001 C CNN
+F 3 "" H 2800 1300 50  0001 C CNN
+	1    2800 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CACCA0A
+P 1650 2700
+F 0 "#PWR?" H 1650 2450 50  0001 C CNN
+F 1 "GND" H 1655 2527 50  0000 C CNN
+F 2 "" H 1650 2700 50  0001 C CNN
+F 3 "" H 1650 2700 50  0001 C CNN
+	1    1650 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 1450 1850 1450
+Text Label 1850 1450 2    50   ~ 0
+D_SCLK
+Wire Wire Line
+	1500 1550 1850 1550
+Wire Wire Line
+	1500 1650 1850 1650
+Wire Wire Line
+	1500 1750 1850 1750
+Wire Wire Line
+	1500 1850 1850 1850
+Wire Wire Line
+	1500 1950 1850 1950
+Wire Wire Line
+	1500 2050 1850 2050
+Wire Wire Line
+	1500 2150 1850 2150
+Wire Wire Line
+	1500 2250 1850 2250
+Wire Wire Line
+	1500 2350 1850 2350
+Wire Wire Line
+	1500 2450 1850 2450
+Wire Wire Line
+	1500 2550 1850 2550
+Text Label 1850 1550 2    50   ~ 0
+D_MOSI
+Text Label 1850 1650 2    50   ~ 0
+D_A0
+Text Label 1850 1750 2    50   ~ 0
+~D_RESET
+Text Label 1850 1850 2    50   ~ 0
+~D_CS
+Text Label 1850 1950 2    50   ~ 0
+BK_Red
+Text Label 1850 2050 2    50   ~ 0
+BK_Green
+Text Label 1850 2150 2    50   ~ 0
+BK_Blue
+Text Label 1850 2250 2    50   ~ 0
+Buzzer
+Text Label 1850 2350 2    50   ~ 0
+ENC_A
+Text Label 1850 2450 2    50   ~ 0
+ENC_B
+Text Label 1850 2550 2    50   ~ 0
+Button
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5CB37494
+P 2800 1400
+F 0 "#FLG?" H 2800 1475 50  0001 C CNN
+F 1 "PWR_FLAG" H 2800 1573 50  0000 C CNN
+F 2 "" H 2800 1400 50  0001 C CNN
+F 3 "~" H 2800 1400 50  0001 C CNN
+	1    2800 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5CB3ABFE
+P 1850 2650
+F 0 "#FLG?" H 1850 2725 50  0001 C CNN
+F 1 "PWR_FLAG" V 1850 2778 50  0000 L CNN
+F 2 "" H 1850 2650 50  0001 C CNN
+F 3 "~" H 1850 2650 50  0001 C CNN
+	1    1850 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7100 1900 6800 1900
+Wire Wire Line
+	7450 3150 7450 3250
+$Comp
+L Connector:Conn_01x14_Male J?
+U 1 1 5CA956D8
+P 1300 1950
+F 0 "J?" H 1400 2800 50  0000 C CNN
+F 1 "Conn_01x14_Male" H 1400 2700 50  0000 C CNN
+F 2 "" H 1300 1950 50  0001 C CNN
+F 3 "~" H 1300 1950 50  0001 C CNN
+	1    1300 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 2650 1650 2650
+Connection ~ 1650 2650
+Wire Wire Line
+	1650 2650 1850 2650
+Wire Wire Line
+	1650 2700 1650 2650
+Text HLabel 1850 1450 2    50   Input ~ 0
+D_SCLK
+Text HLabel 1850 1550 2    50   Input ~ 0
+D_MOSI
+Text HLabel 1850 1650 2    50   Input ~ 0
+D_A0
+Text HLabel 1850 1750 2    50   Input ~ 0
+~D_RESET
+Text HLabel 1850 1850 2    50   Input ~ 0
+~D_CS
+Text HLabel 1850 1950 2    50   Input ~ 0
+BK_Red
+Text HLabel 1850 2050 2    50   Input ~ 0
+BK_Green
+Text HLabel 1850 2150 2    50   Input ~ 0
+BK_Blue
+Text HLabel 1850 2250 2    50   Input ~ 0
+Buzzer
+Text HLabel 1850 2350 2    50   Output ~ 0
+ENC_A
+Text HLabel 1850 2450 2    50   Output ~ 0
+D_SCLK
+Text HLabel 1850 2550 2    50   Output ~ 0
+D_SCLK
+Wire Wire Line
+	1500 1350 2300 1350
+Wire Wire Line
+	2500 1350 2800 1350
+Wire Wire Line
+	2800 1300 2800 1350
+Connection ~ 2800 1350
+Wire Wire Line
+	2800 1350 2800 1400
+$EndSCHEMATC

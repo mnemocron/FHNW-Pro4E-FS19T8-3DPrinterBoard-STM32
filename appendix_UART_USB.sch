@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 6
+Sheet 5 7
 Title "USB to UART Interface"
 Date ""
 Rev "1"

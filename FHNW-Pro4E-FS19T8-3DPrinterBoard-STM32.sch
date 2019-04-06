@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title "3D Printer Board STM32F103"
 Date "2019-04-02"
 Rev "1"
@@ -5479,4 +5480,10 @@ Wire Wire Line
 	3900 6300 3900 6150
 Wire Wire Line
 	3900 6650 3900 7250
+$Sheet
+S 9200 3500 1550 850 
+U 5CA8FDD4
+F0 "appendix_Display" 50
+F1 "appendix_Display.sch" 50
+$EndSheet
 $EndSCHEMATC
