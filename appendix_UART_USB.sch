@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 7
+Sheet 5 6
 Title "USB to UART Interface"
 Date ""
 Rev "1"
@@ -259,9 +259,6 @@ Text GLabel 9250 3600 0    50   Input ~ 0
 D_RX_to_USB_TX
 Text GLabel 9250 4200 0    50   Input ~ 0
 D_TX_to_USB_RX
-NoConn ~ 6650 3650
-NoConn ~ 6650 3750
-NoConn ~ 6650 3850
 NoConn ~ 6650 3950
 NoConn ~ 6650 4050
 NoConn ~ 6650 4150
@@ -4000,4 +3997,25 @@ CF DA 29 FE 17 FF 33 F8 E7 BF 03 40 10 04 41 10 04 41 10 04 41 10 84 E3 F8 0F CA
 60 46 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+Text HLabel 7950 2200 0    50   Input ~ 0
+DTR_ESP32
+Text HLabel 7950 2100 0    50   Input ~ 0
+RTS_ESP32
+Text GLabel 6800 3650 2    50   Input ~ 0
+D_FTDI_RTS
+Text GLabel 6800 3850 2    50   Input ~ 0
+D_FTDI_DTR
+Wire Wire Line
+	6650 3850 6800 3850
+Text GLabel 8100 2100 2    50   Input ~ 0
+D_FTDI_RTS
+Text GLabel 8100 2200 2    50   Input ~ 0
+D_FTDI_DTR
+Wire Wire Line
+	6650 3650 6800 3650
+NoConn ~ 6650 3750
+Wire Wire Line
+	7950 2100 8100 2100
+Wire Wire Line
+	7950 2200 8100 2200
 $EndSCHEMATC

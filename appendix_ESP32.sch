@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 7
+Sheet 3 6
 Title ""
 Date ""
 Rev "1"
@@ -3843,4 +3843,143 @@ CF DA 29 FE 17 FF 33 F8 E7 BF 03 40 10 04 41 10 04 41 10 04 41 10 84 E3 F8 0F CA
 60 46 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+$Comp
+L dk_Transistors-Bipolar-BJT-Single:2N3904 Q?
+U 1 1 5CBEF82D
+P 9500 2350
+F 0 "Q?" H 9688 2403 60  0000 L CNN
+F 1 "2N3904" H 9688 2297 60  0000 L CNN
+F 2 "digikey-footprints:TO-92-3" H 9700 2550 60  0001 L CNN
+F 3 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=LSSGP072.PDF" H 9700 2650 60  0001 L CNN
+F 4 "2N3904CS-ND" H 9700 2750 60  0001 L CNN "Digi-Key_PN"
+F 5 "2N3904" H 9700 2850 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 9700 2950 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 9700 3050 60  0001 L CNN "Family"
+F 8 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=LSSGP072.PDF" H 9700 3150 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/central-semiconductor-corp/2N3904/2N3904CS-ND/4806876" H 9700 3250 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 40V TO-92" H 9700 3350 60  0001 L CNN "Description"
+F 11 "Central Semiconductor Corp" H 9700 3450 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9700 3550 60  0001 L CNN "Status"
+	1    9500 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Transistors-Bipolar-BJT-Single:2N3904 Q?
+U 1 1 5CBF1B4A
+P 9500 3000
+F 0 "Q?" H 9688 2947 60  0000 L CNN
+F 1 "2N3904" H 9688 3053 60  0000 L CNN
+F 2 "digikey-footprints:TO-92-3" H 9700 3200 60  0001 L CNN
+F 3 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=LSSGP072.PDF" H 9700 3300 60  0001 L CNN
+F 4 "2N3904CS-ND" H 9700 3400 60  0001 L CNN "Digi-Key_PN"
+F 5 "2N3904" H 9700 3500 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 9700 3600 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 9700 3700 60  0001 L CNN "Family"
+F 8 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=LSSGP072.PDF" H 9700 3800 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/central-semiconductor-corp/2N3904/2N3904CS-ND/4806876" H 9700 3900 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 40V TO-92" H 9700 4000 60  0001 L CNN "Description"
+F 11 "Central Semiconductor Corp" H 9700 4100 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9700 4200 60  0001 L CNN "Status"
+	1    9500 3000
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CBF31BB
+P 9000 2350
+F 0 "R?" V 8793 2350 50  0000 C CNN
+F 1 "10k" V 8884 2350 50  0000 C CNN
+F 2 "" V 8930 2350 50  0001 C CNN
+F 3 "~" H 9000 2350 50  0001 C CNN
+	1    9000 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CBF3EA7
+P 9000 3000
+F 0 "R?" V 8793 3000 50  0000 C CNN
+F 1 "10k" V 8884 3000 50  0000 C CNN
+F 2 "" V 8930 3000 50  0001 C CNN
+F 3 "~" H 9000 3000 50  0001 C CNN
+	1    9000 3000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9150 3000 9300 3000
+Wire Wire Line
+	9150 2350 9300 2350
+Wire Wire Line
+	8850 3000 8650 3000
+Wire Wire Line
+	9600 2550 9400 2750
+Wire Wire Line
+	8650 2750 9400 2750
+Wire Wire Line
+	8850 2350 8650 2350
+Wire Wire Line
+	8650 2350 8650 2600
+Wire Wire Line
+	8650 2600 9400 2600
+Wire Wire Line
+	9400 2600 9600 2800
+Wire Wire Line
+	8650 2750 8650 3000
+Wire Wire Line
+	8650 2350 8350 2350
+Connection ~ 8650 2350
+Wire Wire Line
+	8650 3000 8350 3000
+Connection ~ 8650 3000
+Text HLabel 8350 3000 0    50   Input ~ 0
+DTR_ESP32
+Text HLabel 8350 2350 0    50   Input ~ 0
+RTS_ESP32
+Wire Wire Line
+	5650 2100 5850 2100
+Text Label 5850 2100 0    50   ~ 0
+ESP32_GPIO0
+Text Label 9650 2100 0    50   ~ 0
+ESP32_GPIO0
+Text Label 9650 3250 0    50   ~ 0
+ESP32_RESET
+Wire Wire Line
+	9650 3250 9600 3250
+Wire Wire Line
+	9600 3250 9600 3200
+Wire Wire Line
+	9600 2150 9600 2100
+Wire Wire Line
+	9600 2100 9650 2100
+Text Label 3550 2100 0    50   ~ 0
+ESP32_RESET
+$Comp
+L Device:R R?
+U 1 1 5CBFAC95
+P 4200 1900
+F 0 "R?" H 4270 1946 50  0000 L CNN
+F 1 "10k" H 4270 1855 50  0000 L CNN
+F 2 "" V 4130 1900 50  0001 C CNN
+F 3 "~" H 4200 1900 50  0001 C CNN
+	1    4200 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5CBFC50E
+P 4200 1750
+F 0 "#PWR?" H 4200 1600 50  0001 C CNN
+F 1 "+3.3V" H 4215 1923 50  0000 C CNN
+F 2 "" H 4200 1750 50  0001 C CNN
+F 3 "" H 4200 1750 50  0001 C CNN
+	1    4200 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 2100 4200 2100
+Wire Wire Line
+	4200 2050 4200 2100
+Connection ~ 4200 2100
+Wire Wire Line
+	4200 2100 3550 2100
 $EndSCHEMATC
