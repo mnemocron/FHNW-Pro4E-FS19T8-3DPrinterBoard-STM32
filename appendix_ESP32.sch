@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0136
 U 1 1 5CA3C9F2
 P 5050 4850
-F 0 "#PWR?" H 5050 4600 50  0001 C CNN
+F 0 "#PWR0136" H 5050 4600 50  0001 C CNN
 F 1 "GND" H 5055 4677 50  0000 C CNN
 F 2 "" H 5050 4850 50  0001 C CNN
 F 3 "" H 5050 4850 50  0001 C CNN
@@ -26,10 +26,10 @@ F 3 "" H 5050 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0137
 U 1 1 5CA3CA30
 P 5050 1750
-F 0 "#PWR?" H 5050 1600 50  0001 C CNN
+F 0 "#PWR0137" H 5050 1600 50  0001 C CNN
 F 1 "+3.3V" H 5065 1923 50  0000 C CNN
 F 2 "" H 5050 1750 50  0001 C CNN
 F 3 "" H 5050 1750 50  0001 C CNN
@@ -41,10 +41,10 @@ D_TX_to_ESP_RX
 Text HLabel 5850 2200 2    50   Input ~ 0
 D_RX_to_ESP_TX
 $Comp
-L RF_Module:ESP32-WROOM-32 U?
+L RF_Module:ESP32-WROOM-32 U301
 U 1 1 5CA47080
 P 5050 3300
-F 0 "U?" H 5300 4850 50  0000 C CNN
+F 0 "U301" H 5300 4850 50  0000 C CNN
 F 1 "ESP32-WROOM-32" H 5600 4750 50  0000 C CNN
 F 2 "RF_Module:ESP32-WROOM-32" H 5050 1800 50  0001 C CNN
 F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" H 4750 3350 50  0001 C CNN
@@ -3844,10 +3844,10 @@ CF DA 29 FE 17 FF 33 F8 E7 BF 03 40 10 04 41 10 04 41 10 04 41 10 84 E3 F8 0F CA
 EndData
 $EndBitmap
 $Comp
-L dk_Transistors-Bipolar-BJT-Single:2N3904 Q?
+L dk_Transistors-Bipolar-BJT-Single:2N3904 Q301
 U 1 1 5CBEF82D
 P 9500 2350
-F 0 "Q?" H 9688 2403 60  0000 L CNN
+F 0 "Q301" H 9688 2403 60  0000 L CNN
 F 1 "2N3904" H 9688 2297 60  0000 L CNN
 F 2 "digikey-footprints:TO-92-3" H 9700 2550 60  0001 L CNN
 F 3 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=LSSGP072.PDF" H 9700 2650 60  0001 L CNN
@@ -3864,10 +3864,10 @@ F 12 "Active" H 9700 3550 60  0001 L CNN "Status"
 	1    0    0    -1  
 $EndComp
 $Comp
-L dk_Transistors-Bipolar-BJT-Single:2N3904 Q?
+L dk_Transistors-Bipolar-BJT-Single:2N3904 Q302
 U 1 1 5CBF1B4A
 P 9500 3000
-F 0 "Q?" H 9688 2947 60  0000 L CNN
+F 0 "Q302" H 9688 2947 60  0000 L CNN
 F 1 "2N3904" H 9688 3053 60  0000 L CNN
 F 2 "digikey-footprints:TO-92-3" H 9700 3200 60  0001 L CNN
 F 3 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=LSSGP072.PDF" H 9700 3300 60  0001 L CNN
@@ -3884,23 +3884,23 @@ F 12 "Active" H 9700 4200 60  0001 L CNN "Status"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R302
 U 1 1 5CBF31BB
 P 9000 2350
-F 0 "R?" V 8793 2350 50  0000 C CNN
+F 0 "R302" V 8793 2350 50  0000 C CNN
 F 1 "10k" V 8884 2350 50  0000 C CNN
-F 2 "" V 8930 2350 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805" V 8930 2350 50  0001 C CNN
 F 3 "~" H 9000 2350 50  0001 C CNN
 	1    9000 2350
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R303
 U 1 1 5CBF3EA7
 P 9000 3000
-F 0 "R?" V 8793 3000 50  0000 C CNN
+F 0 "R303" V 8793 3000 50  0000 C CNN
 F 1 "10k" V 8884 3000 50  0000 C CNN
-F 2 "" V 8930 3000 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805" V 8930 3000 50  0001 C CNN
 F 3 "~" H 9000 3000 50  0001 C CNN
 	1    9000 3000
 	0    1    1    0   
@@ -3954,21 +3954,21 @@ Wire Wire Line
 Text Label 3550 2100 0    50   ~ 0
 ESP32_RESET
 $Comp
-L Device:R R?
+L Device:R R301
 U 1 1 5CBFAC95
 P 4200 1900
-F 0 "R?" H 4270 1946 50  0000 L CNN
+F 0 "R301" H 4270 1946 50  0000 L CNN
 F 1 "10k" H 4270 1855 50  0000 L CNN
-F 2 "" V 4130 1900 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805" V 4130 1900 50  0001 C CNN
 F 3 "~" H 4200 1900 50  0001 C CNN
 	1    4200 1900
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0138
 U 1 1 5CBFC50E
 P 4200 1750
-F 0 "#PWR?" H 4200 1600 50  0001 C CNN
+F 0 "#PWR0138" H 4200 1600 50  0001 C CNN
 F 1 "+3.3V" H 4215 1923 50  0000 C CNN
 F 2 "" H 4200 1750 50  0001 C CNN
 F 3 "" H 4200 1750 50  0001 C CNN
