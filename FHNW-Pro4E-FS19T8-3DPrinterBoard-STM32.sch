@@ -5313,8 +5313,6 @@ CF DA 29 FE 17 FF 33 F8 E7 BF 03 40 10 04 41 10 04 41 10 04 41 10 84 E3 F8 0F CA
 60 46 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Text Notes 2400 5900 0    50   ~ 0
-what about on/#off input?\n
 $Comp
 L Regulator_Switching:LM2675M-3.3 U101
 U 1 1 5CA6A12A
@@ -5361,17 +5359,6 @@ F 1 "GND" H 4955 7227 50  0000 C CNN
 F 2 "" H 4950 7400 50  0001 C CNN
 F 3 "" H 4950 7400 50  0001 C CNN
 	1    4950 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR0103
-U 1 1 5CA6A160
-P 2200 6300
-F 0 "#PWR0103" H 2200 6150 50  0001 C CNN
-F 1 "+12V" H 2215 6473 50  0000 C CNN
-F 2 "" H 2200 6300 50  0001 C CNN
-F 3 "" H 2200 6300 50  0001 C CNN
-	1    2200 6300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -5491,4 +5478,51 @@ Wire Notes Line
 Wire Notes Line
 	5000 2300 5350 2300
 NoConn ~ 2400 6650
+$Comp
+L power:+24V #PWR?
+U 1 1 5CD67EF2
+P 2200 6300
+AR Path="/5CA3FF44/5CD67EF2" Ref="#PWR?"  Part="1" 
+AR Path="/5CD67EF2" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 2200 6150 50  0001 C CNN
+F 1 "+24V" H 2215 6473 50  0000 C CNN
+F 2 "" H 2200 6300 50  0001 C CNN
+F 3 "" H 2200 6300 50  0001 C CNN
+	1    2200 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J101
+U 1 1 5CD68AD6
+P 1250 6450
+F 0 "J101" H 1400 6600 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 1500 6200 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Altech_AK300-2_P5.00mm" H 1250 6450 50  0001 C CNN
+F 3 "~" H 1250 6450 50  0001 C CNN
+	1    1250 6450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse F?
+U 1 1 5CE8417C
+P 1750 6450
+AR Path="/5CA39F21/5CE8417C" Ref="F?"  Part="1" 
+AR Path="/5CE8417C" Ref="F101"  Part="1" 
+F 0 "F101" V 1553 6450 50  0000 C CNN
+F 1 "Fuse" V 1644 6450 50  0000 C CNN
+F 2 "" V 1680 6450 50  0001 C CNN
+F 3 "~" H 1750 6450 50  0001 C CNN
+	1    1750 6450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1450 6450 1600 6450
+Wire Wire Line
+	1900 6450 2200 6450
+Wire Wire Line
+	2200 7250 1600 7250
+Wire Wire Line
+	1600 7250 1600 6550
+Wire Wire Line
+	1600 6550 1450 6550
 $EndSCHEMATC

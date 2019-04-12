@@ -4657,7 +4657,7 @@ U 1 1 5CC66836
 P 6150 2150
 F 0 "SW201" V 6300 2350 50  0000 C CNN
 F 1 "SW_Push" V 5950 2400 50  0000 C CNN
-F 2 "Switches:TACTILE_SWITCH_SMD_5.2MM" H 6150 2350 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2" H 6150 2350 50  0001 C CNN
 F 3 "~" H 6150 2350 50  0001 C CNN
 	1    6150 2150
 	0    -1   -1   0   
@@ -4929,7 +4929,7 @@ MISO
 Text HLabel 3850 4700 0    50   Input ~ 0
 SW_End_Filament
 Text HLabel 3850 4500 0    50   Input ~ 0
-ADC_Temp_HotEnd
+ADC_Temp_E1
 Text HLabel 3850 4300 0    50   Input ~ 0
 ADC_Temp_Bed
 Text HLabel 3850 4900 0    50   Input ~ 0
@@ -4937,13 +4937,13 @@ SW_End_X_min
 Text HLabel 3850 5100 0    50   Input ~ 0
 SW_End_Y_min
 Text HLabel 3850 5250 0    50   Input ~ 0
-SW_End_Z_min
+SW_End_Z1_min
 Text HLabel 3850 5450 0    50   Input ~ 0
 DP_Fan_1
 Text HLabel 3850 5700 0    50   Input ~ 0
 DP_Bed
 Text HLabel 3850 5950 0    50   Input ~ 0
-DP_Hotend_1
+DP_E1
 $Comp
 L Device:Crystal Y201
 U 1 1 5CAD3358
@@ -5057,4 +5057,14 @@ Wire Wire Line
 	14050 3250 14450 3250
 Wire Wire Line
 	14950 3250 15250 3250
+Text HLabel 3850 5550 0    50   Input ~ 0
+DP_Fan_2
+Text HLabel 2100 5750 0    50   Input ~ 0
+D_TMC_EN_E1
+Text HLabel 2100 5650 0    50   Input ~ 0
+D_TMC_CS_E1
+Text HLabel 2100 5450 0    50   Input ~ 0
+D_TMC_STEP_E1
+Text HLabel 2100 5550 0    50   Input ~ 0
+D_TMC_DIR_E1
 $EndSCHEMATC
