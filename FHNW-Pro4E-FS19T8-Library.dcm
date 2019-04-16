@@ -5,10 +5,20 @@ D Logic level N-channel MOSFET in a SOT404 package using TrenchMOS technology
 F http://www.farnell.com/datasheets/2174111.pdf?_ga=2.163468607.22968134.1552994068-1575888051.1538557827
 $ENDCMP
 #
+$CMP NTS0104PW-Q100J
+D IC TRNSLTR BIDIRECTIONAL
+$ENDCMP
+#
 $CMP TMC2660
 D The TMC2660 provides an integrated motor driver solution for Laboratory Automation, 3D-Printing, Scanners and other automated equipment applications.
 K Trinamic TMC Stepper Motor Driver StallGuard2 CoolStep SpreadCycle Microstepping
 F https://www.trinamic.com/products/integrated-circuits/details/tmc2660-pa/
+$ENDCMP
+#
+$CMP WE-744232090
+D Coupled inductor with ferrite  with 90 Ohms Impedance for USB common mode suppression
+K inductor choke coil reactor magnetic coupled
+F ~
 $ENDCMP
 #
 #End Doc Library
