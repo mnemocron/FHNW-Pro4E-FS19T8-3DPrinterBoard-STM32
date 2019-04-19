@@ -37,9 +37,9 @@ F 3 "" H 5050 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 5850 2400 2    50   Input ~ 0
-D_TX_to_ESP_RX
+RX_ESP_to_TX_FTDI
 Text HLabel 5850 2200 2    50   Input ~ 0
-D_RX_to_ESP_TX
+TX_ESP_to_RX_FTDI
 $Comp
 L RF_Module:ESP32-WROOM-32 U301
 U 1 1 5CA47080

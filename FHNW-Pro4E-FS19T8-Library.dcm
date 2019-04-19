@@ -9,6 +9,12 @@ $CMP NTS0104PW-Q100J
 D IC TRNSLTR BIDIRECTIONAL
 $ENDCMP
 #
+$CMP SG5032CCN-6.000000M-HJGA3
+D CMOS Clock Oscillator
+K Crystal Clock Oscillator
+F https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-8002DC
+$ENDCMP
+#
 $CMP TMC2660
 D The TMC2660 provides an integrated motor driver solution for Laboratory Automation, 3D-Printing, Scanners and other automated equipment applications.
 K Trinamic TMC Stepper Motor Driver StallGuard2 CoolStep SpreadCycle Microstepping
