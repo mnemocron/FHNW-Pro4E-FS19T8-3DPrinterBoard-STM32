@@ -413,46 +413,6 @@ Wire Wire Line
 Wire Wire Line
 	5050 4850 5050 4700
 $Comp
-L dk_Transistors-Bipolar-BJT-Single:2N3904 Q301
-U 1 1 5CBEF82D
-P 9500 2350
-F 0 "Q301" H 9688 2403 60  0000 L CNN
-F 1 "2N3904" H 9688 2297 60  0000 L CNN
-F 2 "digikey-footprints:TO-92-3" H 9700 2550 60  0001 L CNN
-F 3 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=LSSGP072.PDF" H 9700 2650 60  0001 L CNN
-F 4 "2N3904CS-ND" H 9700 2750 60  0001 L CNN "Digi-Key_PN"
-F 5 "2N3904" H 9700 2850 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 9700 2950 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 9700 3050 60  0001 L CNN "Family"
-F 8 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=LSSGP072.PDF" H 9700 3150 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/central-semiconductor-corp/2N3904/2N3904CS-ND/4806876" H 9700 3250 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 40V TO-92" H 9700 3350 60  0001 L CNN "Description"
-F 11 "Central Semiconductor Corp" H 9700 3450 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 9700 3550 60  0001 L CNN "Status"
-	1    9500 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L dk_Transistors-Bipolar-BJT-Single:2N3904 Q302
-U 1 1 5CBF1B4A
-P 9500 3000
-F 0 "Q302" H 9688 2947 60  0000 L CNN
-F 1 "2N3904" H 9688 3053 60  0000 L CNN
-F 2 "digikey-footprints:TO-92-3" H 9700 3200 60  0001 L CNN
-F 3 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=LSSGP072.PDF" H 9700 3300 60  0001 L CNN
-F 4 "2N3904CS-ND" H 9700 3400 60  0001 L CNN "Digi-Key_PN"
-F 5 "2N3904" H 9700 3500 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 9700 3600 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 9700 3700 60  0001 L CNN "Family"
-F 8 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=LSSGP072.PDF" H 9700 3800 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/central-semiconductor-corp/2N3904/2N3904CS-ND/4806876" H 9700 3900 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 40V TO-92" H 9700 4000 60  0001 L CNN "Description"
-F 11 "Central Semiconductor Corp" H 9700 4100 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 9700 4200 60  0001 L CNN "Status"
-	1    9500 3000
-	1    0    0    1   
-$EndComp
-$Comp
 L Device:R R302
 U 1 1 5CBF31BB
 P 9000 2350
@@ -2336,4 +2296,26 @@ E6 92 8C 48 A4 65 B3 B7 C0 30 0C C3 7C 77 60 ED 2C C3 30 F7 09 F4 7B 46 F1 59 F1
 42 60 82 
 EndData
 $EndBitmap
+$Comp
+L Transistor_BJT:2N3904 Q1
+U 1 1 5CBE1CFC
+P 9500 2350
+F 0 "Q1" H 9690 2396 50  0000 L CNN
+F 1 "2N3904" H 9690 2305 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9700 2275 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 9500 2350 50  0001 L CNN
+	1    9500 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q2
+U 1 1 5CBE30DA
+P 9500 3000
+F 0 "Q2" H 9690 2954 50  0000 L CNN
+F 1 "2N3904" H 9690 3045 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9700 2925 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 9500 3000 50  0001 L CNN
+	1    9500 3000
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC
