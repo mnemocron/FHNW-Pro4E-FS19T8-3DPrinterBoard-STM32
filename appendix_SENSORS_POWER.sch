@@ -66,17 +66,6 @@ Connection ~ 1700 1550
 Wire Wire Line
 	1700 1550 1700 1450
 $Comp
-L FHNW-Pro4E-FS19T8-Library:BUK963R3-60E T401
-U 1 1 5CCB900F
-P 4750 1550
-F 0 "T401" H 4878 1596 50  0000 L CNN
-F 1 "BUK963R3-60E" H 4878 1505 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-263-2" H 5550 1150 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2174111.pdf?_ga=2.163468607.22968134.1552994068-1575888051.1538557827" H 4750 1000 50  0001 C CNN
-	1    4750 1550
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0142
 U 1 1 5CCB901B
 P 4750 1850
@@ -100,8 +89,6 @@ F 3 "~" H 4300 1550 50  0001 C CNN
 	1    4300 1550
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4450 1550 4550 1550
 $Comp
 L FHNW-Pro4E-FS19T8-Library:BUK963R3-60E T402
 U 1 1 5CCB902F
@@ -635,17 +622,6 @@ F 3 "" H 4750 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FHNW-Pro4E-FS19T8-Library:BUK963R3-60E T404
-U 1 1 5CDE31B1
-P 4750 2850
-F 0 "T404" H 4878 2896 50  0000 L CNN
-F 1 "BUK963R3-60E" H 4878 2805 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-263-2" H 5550 2450 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2174111.pdf?_ga=2.163468607.22968134.1552994068-1575888051.1538557827" H 4750 2300 50  0001 C CNN
-	1    4750 2850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R413
 U 1 1 5CDE31C6
 P 4300 2850
@@ -656,8 +632,6 @@ F 3 "~" H 4300 2850 50  0001 C CNN
 	1    4300 2850
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4450 2850 4550 2850
 $Comp
 L Connector:Screw_Terminal_01x02 J?
 U 1 1 5CE15986
@@ -2556,17 +2530,6 @@ Wire Wire Line
 Wire Wire Line
 	4750 3150 4750 3050
 $Comp
-L FHNW-Pro4E-FS19T8-Library:BUK963R3-60E T405
-U 1 1 5CBD0C42
-P 4750 4150
-F 0 "T405" H 4878 4196 50  0000 L CNN
-F 1 "BUK963R3-60E" H 4878 4105 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-263-2" H 5550 3750 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2174111.pdf?_ga=2.163468607.22968134.1552994068-1575888051.1538557827" H 4750 3600 50  0001 C CNN
-	1    4750 4150
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R420
 U 1 1 5CBD0C4C
 P 4300 4150
@@ -2577,8 +2540,6 @@ F 3 "~" H 4300 4150 50  0001 C CNN
 	1    4300 4150
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4450 4150 4550 4150
 $Comp
 L Connector_Generic:Conn_01x02 J411
 U 1 1 5CBD0C5C
@@ -2747,7 +2708,6 @@ Wire Wire Line
 	4750 1350 5000 1350
 Wire Wire Line
 	5000 1350 5000 1250
-Connection ~ 4750 1350
 Wire Wire Line
 	5000 1150 5250 1150
 Wire Wire Line
@@ -2800,7 +2760,6 @@ Wire Wire Line
 	5000 2550 5250 2550
 Wire Wire Line
 	5000 2650 4750 2650
-Connection ~ 4750 2650
 Wire Wire Line
 	1700 1550 2500 1550
 Wire Wire Line
@@ -2844,7 +2803,6 @@ Wire Wire Line
 	5000 3850 5000 3950
 Wire Wire Line
 	4750 3950 5000 3950
-Connection ~ 4750 3950
 Wire Wire Line
 	5250 3750 5000 3750
 Wire Wire Line
@@ -2876,4 +2834,40 @@ Text HLabel 8050 4600 0    50   Input ~ 0
 ADC_TEMP_PCB
 Text HLabel 8050 1600 0    50   Input ~ 0
 ADC_TEMP_BED
+Connection ~ 4750 1350
+$Comp
+L Transistor_FET:2N7002 T401
+U 1 1 5CBEA1BD
+P 4650 1550
+F 0 "T401" H 4856 1596 50  0000 L CNN
+F 1 "PMV40UN2" H 4856 1505 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4850 1475 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 4650 1550 50  0001 L CNN
+	1    4650 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7002 T404
+U 1 1 5CBFF7F5
+P 4650 2850
+F 0 "T404" H 4856 2896 50  0000 L CNN
+F 1 "PMV40UN2" H 4856 2805 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4850 2775 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 4650 2850 50  0001 L CNN
+	1    4650 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7002 T405
+U 1 1 5CC0134D
+P 4650 4150
+F 0 "T405" H 4856 4196 50  0000 L CNN
+F 1 "PMV40UN2" H 4856 4105 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4850 4075 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 4650 4150 50  0001 L CNN
+	1    4650 4150
+	1    0    0    -1  
+$EndComp
+Connection ~ 4750 3950
+Connection ~ 4750 2650
 $EndSCHEMATC
