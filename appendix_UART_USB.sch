@@ -1645,7 +1645,7 @@ U 1 1 5CB2E973
 P 1100 2700
 F 0 "J504" H 1207 3967 50  0000 C CNN
 F 1 "USB_C_Receptacle" H 1207 3876 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 1250 2700 50  0001 C CNN
+F 2 "Connectors_USB:USB_C_Receptacle_Amphenol_12401610E4-2A" H 1250 2700 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1250 2700 50  0001 C CNN
 	1    1100 2700
 	1    0    0    -1  
@@ -1709,13 +1709,13 @@ Wire Wire Line
 	1750 2200 2000 2200
 Wire Wire Line
 	1750 2400 2000 2400
-Text Label 2450 2850 0    25   ~ 0
+Text Label 2450 2950 0    25   ~ 0
 USB_D_P
-Text Label 3250 2850 0    25   ~ 0
+Text Label 3150 2900 0    25   ~ 0
 USB_TVS_D_P
-Text Label 3250 1850 0    25   ~ 0
+Text Label 3150 1800 0    25   ~ 0
 USB_TVS_D_N
-Text Label 2450 1850 0    25   ~ 0
+Text Label 2450 1750 0    25   ~ 0
 USB_D_N
 $Comp
 L power:GND #PWR0507
@@ -1760,17 +1760,6 @@ F 2 "Resistors_SMD:R_0603" V 5380 2450 50  0001 C CNN
 F 3 "~" H 5450 2450 50  0001 C CNN
 	1    5450 2450
 	0    1    -1   0   
-$EndComp
-$Comp
-L FHNW-Pro4E-FS19T8-Library:WE-744232090 L501
-U 1 1 5CBA01CA
-P 4400 2350
-F 0 "L501" H 4400 2650 50  0000 C CNN
-F 1 "WE-744232090" H 4400 2150 50  0000 C CNN
-F 2 "" H 4400 2350 50  0001 C CNN
-F 3 "~" H 4400 2350 50  0001 C CNN
-	1    4400 2350
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4000 2250 4200 2250
@@ -2767,33 +2756,6 @@ F 3 "" H 6900 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power_Protection:USBLC6-2SC6 U1
-U 1 1 5CBD8D55
-P 2950 2350
-F 0 "U1" V 2600 2550 50  0000 L CNN
-F 1 "USBLC6-2SC6" V 3100 2700 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 2200 2750 50  0001 C CNN
-F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 3150 2700 50  0001 C CNN
-	1    2950 2350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2000 2400 2000 2850
-Wire Wire Line
-	2000 2850 2850 2850
-Wire Wire Line
-	2000 1850 2000 2200
-Wire Wire Line
-	2000 1850 2850 1850
-Wire Wire Line
-	4000 1850 4000 2250
-Wire Wire Line
-	3050 1850 4000 1850
-Wire Wire Line
-	4000 2450 4000 2850
-Wire Wire Line
-	3050 2850 4000 2850
-$Comp
 L Device:C C1
 U 1 1 5CBC7319
 P 6050 1850
@@ -2840,28 +2802,6 @@ NoConn ~ 1700 2800
 NoConn ~ 1700 2700
 NoConn ~ 1700 2000
 NoConn ~ 1700 1900
-$Comp
-L power:VBUS #PWR0505
-U 1 1 5CC883C1
-P 3450 2350
-F 0 "#PWR0505" H 3450 2200 50  0001 C CNN
-F 1 "VBUS" V 3450 2600 50  0000 C CNN
-F 2 "" H 3450 2350 50  0001 C CNN
-F 3 "" H 3450 2350 50  0001 C CNN
-	1    3450 2350
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0504
-U 1 1 5CC897FA
-P 2450 2350
-F 0 "#PWR0504" H 2450 2100 50  0001 C CNN
-F 1 "GND" V 2450 2150 50  0000 C CNN
-F 2 "" H 2450 2350 50  0001 C CNN
-F 3 "" H 2450 2350 50  0001 C CNN
-	1    2450 2350
-	0    1    1    0   
-$EndComp
 Text Notes 9150 1700 0    50   ~ 0
 RX_STM_to_TX_FTDI
 Text Notes 9150 1800 0    50   ~ 0
@@ -2882,4 +2822,76 @@ Text HLabel 8200 3550 2    50   Input ~ 0
 FT_DTR_B
 Text HLabel 8200 3350 2    50   Input ~ 0
 FT_RTS_B
+$Comp
+L power:GND #PWR0504
+U 1 1 5CC897FA
+P 2450 2350
+F 0 "#PWR0504" H 2450 2100 50  0001 C CNN
+F 1 "GND" V 2450 2150 50  0000 C CNN
+F 2 "" H 2450 2350 50  0001 C CNN
+F 3 "" H 2450 2350 50  0001 C CNN
+	1    2450 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VBUS #PWR0505
+U 1 1 5CC883C1
+P 3450 2350
+F 0 "#PWR0505" H 3450 2200 50  0001 C CNN
+F 1 "VBUS" V 3450 2600 50  0000 C CNN
+F 2 "" H 3450 2350 50  0001 C CNN
+F 3 "" H 3450 2350 50  0001 C CNN
+	1    3450 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L FHNW-Pro4E-FS19T8-Library:WE-744232090 L501
+U 1 1 5CBA01CA
+P 4400 2350
+F 0 "L501" H 4400 2650 50  0000 C CNN
+F 1 "WE-744232090" H 4400 2150 50  0000 C CNN
+F 2 "FHNW-Pro4E-FS19T8-Library:WURTH_USB_Chocke_4PAD" H 4400 2350 50  0001 C CNN
+F 3 "~" H 4400 2350 50  0001 C CNN
+	1    4400 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 2950 3050 2950
+Wire Wire Line
+	3050 2950 3050 2850
+Wire Wire Line
+	2000 2400 2000 2950
+Wire Wire Line
+	2850 2850 2850 2900
+Wire Wire Line
+	2850 2900 4000 2900
+Wire Wire Line
+	4000 2450 4000 2900
+$Comp
+L Power_Protection:USBLC6-2SC6 U1
+U 1 1 5CBD8D55
+P 2950 2350
+F 0 "U1" V 2600 2550 50  0000 L CNN
+F 1 "USBLC6-2SC6" V 3100 2700 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 2200 2750 50  0001 C CNN
+F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 3150 2700 50  0001 C CNN
+	1    2950 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2850 1850 2850 1800
+Wire Wire Line
+	2850 1800 4000 1800
+Wire Wire Line
+	4000 1800 4000 2250
+Wire Wire Line
+	3050 1850 3050 1750
+Wire Wire Line
+	3050 1750 2000 1750
+Wire Wire Line
+	2000 1750 2000 2200
+Text HLabel 8200 1750 2    50   Input ~ 0
+FT_RX_A
+Text HLabel 8200 1650 2    50   Input ~ 0
+FT_TX_A
 $EndSCHEMATC
