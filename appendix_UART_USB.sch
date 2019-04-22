@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 6
+Sheet 6 6
 Title "USB to UART Interface"
 Date ""
 Rev "1"
@@ -2226,14 +2226,6 @@ Wire Wire Line
 	5350 4200 4800 4200
 Text Label 4850 4200 0    25   ~ 0
 XTAL_FTDI
-Text HLabel 8200 3150 2    50   Input ~ 0
-RX_ESP_to_TX_FTDI
-Text HLabel 8200 3250 2    50   Input ~ 0
-TX_ESP_to_RX_FTDI
-Text HLabel 8200 3550 2    50   Input ~ 0
-DTR_ESP32
-Text HLabel 8200 3350 2    50   Input ~ 0
-RTS_ESP32
 Wire Wire Line
 	8200 3550 8000 3550
 Wire Wire Line
@@ -2242,10 +2234,6 @@ Wire Wire Line
 	8200 3150 8000 3150
 Wire Wire Line
 	8000 3250 8200 3250
-Text HLabel 8200 1650 2    50   Input ~ 0
-RX_STM_to_TX_FTDI
-Text HLabel 8200 1750 2    50   Input ~ 0
-TX_STM_to_RX_FTDI
 Wire Wire Line
 	8200 1650 8000 1650
 Wire Wire Line
@@ -2840,4 +2828,58 @@ Wire Wire Line
 	5850 1900 5850 1850
 Wire Wire Line
 	5850 1850 5900 1850
+NoConn ~ 1700 4000
+NoConn ~ 1700 3900
+NoConn ~ 1700 3700
+NoConn ~ 1700 3600
+NoConn ~ 1700 3400
+NoConn ~ 1700 3300
+NoConn ~ 1700 3100
+NoConn ~ 1700 3000
+NoConn ~ 1700 2800
+NoConn ~ 1700 2700
+NoConn ~ 1700 2000
+NoConn ~ 1700 1900
+$Comp
+L power:VBUS #PWR0505
+U 1 1 5CC883C1
+P 3450 2350
+F 0 "#PWR0505" H 3450 2200 50  0001 C CNN
+F 1 "VBUS" V 3450 2600 50  0000 C CNN
+F 2 "" H 3450 2350 50  0001 C CNN
+F 3 "" H 3450 2350 50  0001 C CNN
+	1    3450 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0504
+U 1 1 5CC897FA
+P 2450 2350
+F 0 "#PWR0504" H 2450 2100 50  0001 C CNN
+F 1 "GND" V 2450 2150 50  0000 C CNN
+F 2 "" H 2450 2350 50  0001 C CNN
+F 3 "" H 2450 2350 50  0001 C CNN
+	1    2450 2350
+	0    1    1    0   
+$EndComp
+Text Notes 9150 1700 0    50   ~ 0
+RX_STM_to_TX_FTDI
+Text Notes 9150 1800 0    50   ~ 0
+TX_STM_to_RX_FTDI
+Text Notes 9050 3150 0    50   ~ 0
+RX_ESP_to_TX_FTDI
+Text Notes 9050 3250 0    50   ~ 0
+TX_ESP_to_RX_FTDI
+Text Notes 9050 3350 0    50   ~ 0
+RTS_ESP32
+Text Notes 9050 3550 0    50   ~ 0
+DTR_ESP32
+Text HLabel 8200 3250 2    50   Input ~ 0
+FT_RX_B
+Text HLabel 8200 3150 2    50   Input ~ 0
+FT_TX_B
+Text HLabel 8200 3550 2    50   Input ~ 0
+FT_DTR_B
+Text HLabel 8200 3350 2    50   Input ~ 0
+FT_RTS_B
 $EndSCHEMATC

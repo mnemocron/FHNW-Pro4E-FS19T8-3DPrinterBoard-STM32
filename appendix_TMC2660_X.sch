@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 6 6
+Sheet 5 6
 Title "TMC2660 Stepper Drivers"
 Date ""
 Rev "1"
@@ -239,21 +239,11 @@ Wire Wire Line
 Connection ~ 3550 1150
 Wire Wire Line
 	3550 1150 3550 1100
-Text HLabel 2900 3100 0    50   Input ~ 0
-D_TMC_EN_X
 Wire Wire Line
 	3050 3750 2900 3750
 Wire Wire Line
 	2900 3750 2900 4250
 Connection ~ 2900 4250
-Text HLabel 2900 2400 0    50   Input ~ 0
-D_TMC_CS_X
-Text HLabel 2900 2500 0    50   Input ~ 0
-D_SPI_SCK
-Text HLabel 2900 2600 0    50   Input ~ 0
-D_SPI_MOSI
-Text HLabel 2900 2700 0    50   Input ~ 0
-D_SPI_MISO
 Wire Wire Line
 	2900 2400 3050 2400
 Wire Wire Line
@@ -279,12 +269,8 @@ Wire Wire Line
 	2900 3250 2900 3200
 Wire Wire Line
 	2900 3200 3050 3200
-Text HLabel 2900 2000 0    50   Input ~ 0
-D_TMC_STEP_X
 Wire Wire Line
 	2900 2000 3050 2000
-Text HLabel 2900 2100 0    50   Input ~ 0
-D_TMC_DIR_X
 Wire Wire Line
 	2900 2100 3050 2100
 $Comp
@@ -1359,21 +1345,11 @@ F 3 "" H 12050 1350 50  0001 C CNN
 	1    12050 1350
 	1    0    0    -1  
 $EndComp
-Text HLabel 9850 3050 0    50   Input ~ 0
-D_TMC_EN_Y
 Wire Wire Line
 	10000 3700 9850 3700
 Wire Wire Line
 	9850 3700 9850 4200
 Connection ~ 9850 4200
-Text HLabel 9850 2350 0    50   Input ~ 0
-D_TMC_CS_Y
-Text HLabel 9850 2450 0    50   Input ~ 0
-D_SPI_SCK
-Text HLabel 9850 2550 0    50   Input ~ 0
-D_SPI_MOSI
-Text HLabel 9850 2650 0    50   Input ~ 0
-D_SPI_MISO
 Wire Wire Line
 	9850 2350 10000 2350
 Wire Wire Line
@@ -1399,12 +1375,8 @@ Wire Wire Line
 	9850 3200 9850 3150
 Wire Wire Line
 	9850 3150 10000 3150
-Text HLabel 9850 1950 0    50   Input ~ 0
-D_TMC_STEP_Y
 Wire Wire Line
 	9850 1950 10000 1950
-Text HLabel 9850 2050 0    50   Input ~ 0
-D_TMC_DIR_Y
 Wire Wire Line
 	9850 2050 10000 2050
 $Comp
@@ -1829,21 +1801,11 @@ F 3 "" H 12050 6050 50  0001 C CNN
 	1    12050 6050
 	1    0    0    -1  
 $EndComp
-Text HLabel 9850 7750 0    50   Input ~ 0
-D_TMC_EN_Z1
 Wire Wire Line
 	10000 8400 9850 8400
 Wire Wire Line
 	9850 8400 9850 8900
 Connection ~ 9850 8900
-Text HLabel 9850 7050 0    50   Input ~ 0
-D_TMC_CS_Z1
-Text HLabel 9850 7150 0    50   Input ~ 0
-D_SPI_SCK
-Text HLabel 9850 7250 0    50   Input ~ 0
-D_SPI_MOSI
-Text HLabel 9850 7350 0    50   Input ~ 0
-D_SPI_MISO
 Wire Wire Line
 	9850 7050 10000 7050
 Wire Wire Line
@@ -1869,12 +1831,8 @@ Wire Wire Line
 	9850 7900 9850 7850
 Wire Wire Line
 	9850 7850 10000 7850
-Text HLabel 9850 6650 0    50   Input ~ 0
-D_TMC_STEP_Z1
 Wire Wire Line
 	9850 6650 10000 6650
-Text HLabel 9850 6750 0    50   Input ~ 0
-D_TMC_DIR_Z1
 Wire Wire Line
 	9850 6750 10000 6750
 $Comp
@@ -2299,21 +2257,11 @@ F 3 "" H 5100 6050 50  0001 C CNN
 	1    5100 6050
 	1    0    0    -1  
 $EndComp
-Text HLabel 2900 7750 0    50   Input ~ 0
-D_TMC_EN_E1
 Wire Wire Line
 	3050 8400 2900 8400
 Wire Wire Line
 	2900 8400 2900 8900
 Connection ~ 2900 8900
-Text HLabel 2900 7050 0    50   Input ~ 0
-D_TMC_CS_E1
-Text HLabel 2900 7150 0    50   Input ~ 0
-D_SPI_SCK
-Text HLabel 2900 7250 0    50   Input ~ 0
-D_SPI_MOSI
-Text HLabel 2900 7350 0    50   Input ~ 0
-D_SPI_MISO
 Wire Wire Line
 	2900 7050 3050 7050
 Wire Wire Line
@@ -2339,12 +2287,8 @@ Wire Wire Line
 	2900 7900 2900 7850
 Wire Wire Line
 	2900 7850 3050 7850
-Text HLabel 2900 6650 0    50   Input ~ 0
-D_TMC_STEP_E1
 Wire Wire Line
 	2900 6650 3050 6650
-Text HLabel 2900 6750 0    50   Input ~ 0
-D_TMC_DIR_E1
 Wire Wire Line
 	2900 6750 3050 6750
 $Comp
@@ -4602,13 +4546,9 @@ E6 92 8C 48 A4 65 B3 B7 C0 30 0C C3 7C 77 60 ED 2C C3 30 F7 09 F4 7B 46 F1 59 F1
 42 60 82 
 EndData
 $EndBitmap
-Text HLabel 2900 3550 0    50   Input ~ 0
-D_INT_TMC_STALL_X
 Wire Wire Line
 	3050 3550 2900 3550
 NoConn ~ 3050 3650
-Text HLabel 9850 3500 0    50   Input ~ 0
-D_INT_TMC_STALL_Y
 $Comp
 L FHNW-Pro4E-FS19T8-Library:TMC2660 U601
 U 1 1 5CB04246
@@ -4623,14 +4563,74 @@ $EndComp
 NoConn ~ 10000 3600
 Wire Wire Line
 	10000 3500 9850 3500
-Text HLabel 9850 8200 0    50   Input ~ 0
-D_INT_TMC_STALL_Z1
 Wire Wire Line
 	9850 8200 10000 8200
 NoConn ~ 10000 8300
-Text HLabel 2900 8200 0    50   Input ~ 0
-D_INT_TMC_STALL_E1
 NoConn ~ 3050 8300
 Wire Wire Line
 	3050 8200 2900 8200
+Text HLabel 2900 2500 0    50   Input ~ 0
+SPI_SCK
+Text HLabel 2900 2700 0    50   Input ~ 0
+SPI_MISO
+Text HLabel 2900 2600 0    50   Input ~ 0
+SPI_MOSI
+Text HLabel 9850 2450 0    50   Input ~ 0
+SPI_SCK
+Text HLabel 9850 2650 0    50   Input ~ 0
+SPI_MISO
+Text HLabel 9850 2550 0    50   Input ~ 0
+SPI_MOSI
+Text HLabel 9850 7150 0    50   Input ~ 0
+SPI_SCK
+Text HLabel 9850 7350 0    50   Input ~ 0
+SPI_MISO
+Text HLabel 9850 7250 0    50   Input ~ 0
+SPI_MOSI
+Text HLabel 2900 7150 0    50   Input ~ 0
+SPI_SCK
+Text HLabel 2900 7350 0    50   Input ~ 0
+SPI_MISO
+Text HLabel 2900 7250 0    50   Input ~ 0
+SPI_MOSI
+Text HLabel 2900 2100 0    50   Input ~ 0
+TMC_DIR_X
+Text HLabel 2900 2000 0    50   Input ~ 0
+TMC_STEP_X
+Text HLabel 2900 2400 0    50   Input ~ 0
+TMC_CS_X
+Text HLabel 2900 3100 0    50   Input ~ 0
+TMC_EN_X
+Text HLabel 9850 2050 0    50   Input ~ 0
+TMC_DIR_Y
+Text HLabel 9850 1950 0    50   Input ~ 0
+TMC_STEP_Y
+Text HLabel 9850 2350 0    50   Input ~ 0
+TMC_CS_Y
+Text HLabel 9850 6750 0    50   Input ~ 0
+TMC_DIR_Z
+Text HLabel 9850 6650 0    50   Input ~ 0
+TMC_STEP_Z
+Text HLabel 9850 7050 0    50   Input ~ 0
+TMC_CS_Z
+Text HLabel 2900 6750 0    50   Input ~ 0
+TMC_DIR_E
+Text HLabel 2900 6650 0    50   Input ~ 0
+TMC_STEP_E
+Text HLabel 2900 7050 0    50   Input ~ 0
+TMC_CS_E
+Text HLabel 9850 3050 0    50   Input ~ 0
+TMC_EN_Y
+Text HLabel 9850 7750 0    50   Input ~ 0
+TMC_EN_Z
+Text HLabel 2900 7750 0    50   Input ~ 0
+TMC_EN_E
+Text HLabel 2900 3550 0    50   Input ~ 0
+TMC_STALL_X
+Text HLabel 2900 8200 0    50   Input ~ 0
+TMC_STALL_E
+Text HLabel 9850 8200 0    50   Input ~ 0
+TMC_STALL_Z
+Text HLabel 9850 3500 0    50   Input ~ 0
+TMC_STALL_Y
 $EndSCHEMATC
