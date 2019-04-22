@@ -3448,7 +3448,7 @@ U 1 1 5CA6A12A
 P 3650 6650
 F 0 "U101" H 3650 7117 50  0000 C CNN
 F 1 "LM2675M-3.3" H 3650 7026 50  0000 C CNN
-F 2 "Housings_SOIC:SOIC-8-1EP_3.9x4.9mm_Pitch1.27mm" H 3700 6300 50  0001 L CIN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3700 6300 50  0001 L CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2675.pdf" H 3650 6650 50  0001 C CNN
 	1    3650 6650
 	1    0    0    -1  
@@ -3873,12 +3873,6 @@ Wire Wire Line
 Wire Wire Line
 	6150 5600 6150 5750
 Wire Wire Line
-	4200 2600 4600 2600
-Wire Wire Line
-	4600 2600 4600 2850
-Wire Wire Line
-	4600 2850 5050 2850
-Wire Wire Line
 	5050 2750 4650 2750
 Wire Wire Line
 	4650 2750 4650 2500
@@ -4018,4 +4012,10 @@ Text HLabel 8650 5100 0    50   Input ~ 0
 POWER_BED
 Text HLabel 8650 5200 0    50   Input ~ 0
 POWER_E1
+Wire Wire Line
+	4200 2600 4550 2600
+Wire Wire Line
+	4550 2600 4550 2850
+Wire Wire Line
+	4550 2850 5050 2850
 $EndSCHEMATC
