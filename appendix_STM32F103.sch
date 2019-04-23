@@ -2955,17 +2955,6 @@ F 3 "" H 14700 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x20_Top_Bottom J203
-U 1 1 5CC80F37
-P 6800 9850
-F 0 "J203" H 6850 10900 50  0000 C CNN
-F 1 "Conn_02x20_Top_Bottom" H 6850 11100 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 6800 9850 50  0001 C CNN
-F 3 "~" H 6800 9850 50  0001 C CNN
-	1    6800 9850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R216
 U 1 1 5CCE5B07
 P 13500 2150
@@ -3768,10 +3757,10 @@ Wire Wire Line
 Wire Wire Line
 	14250 8500 15200 8500
 $Comp
-L Device:R R?
+L Device:R R202
 U 1 1 5CDABFCE
 P 3350 4400
-F 0 "R?" H 3420 4446 50  0000 L CNN
+F 0 "R202" H 3420 4446 50  0000 L CNN
 F 1 "330R" H 3420 4355 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" V 3280 4400 50  0001 C CNN
 F 3 "~" H 3350 4400 50  0001 C CNN
@@ -3779,10 +3768,10 @@ F 3 "~" H 3350 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D201
 U 1 1 5CDABFD4
 P 3350 4800
-F 0 "D?" V 3389 4683 50  0000 R CNN
+F 0 "D201" V 3389 4683 50  0000 R CNN
 F 1 "LED" V 3298 4683 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 3350 4800 50  0001 C CNN
 F 3 "~" H 3350 4800 50  0001 C CNN
@@ -3791,4 +3780,15 @@ F 3 "~" H 3350 4800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3350 4550 3350 4650
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J203
+U 1 1 5CCA330B
+P 6800 9850
+F 0 "J203" H 6850 11200 50  0000 C CNN
+F 1 "Conn_02x20_Odd_Even" H 6850 11100 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 6800 9850 50  0001 C CNN
+F 3 "~" H 6800 9850 50  0001 C CNN
+	1    6800 9850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
