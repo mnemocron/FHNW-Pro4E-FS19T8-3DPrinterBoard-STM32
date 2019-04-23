@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 5 6
+Sheet 4 6
 Title "TMC2660 Stepper Drivers"
 Date ""
 Rev "1"

@@ -46,6 +46,18 @@ F25 "STEP_E1" I R 8650 3250 50
 F26 "EN_E1" I R 8650 3350 50 
 F27 "CS_E1" I R 8650 3450 50 
 F28 "STALL_E1" I R 8650 3550 50 
+F29 "ADC_T_E1" I R 8650 3950 50 
+F30 "ADC_T_BED" I R 8650 4050 50 
+F31 "BED_ON" I R 8650 5100 50 
+F32 "E1_ON" I R 8650 5200 50 
+F33 "FAN1" I R 8650 4750 50 
+F34 "FAN2" I R 8650 4850 50 
+F35 "FAN3" I R 8650 4950 50 
+F36 "ADC_T_PCB" I R 8650 4150 50 
+F37 "SW_Min_X" I R 8650 4300 50 
+F38 "SW_Min_Y" I R 8650 4400 50 
+F39 "SW_Min_Z1" I R 8650 4500 50 
+F40 "SW_Min_Filament1" I R 8650 4600 50 
 $EndSheet
 $Sheet
 S 2450 1050 1750 1650
@@ -1779,12 +1791,12 @@ $EndComp
 $Comp
 L Connector:Screw_Terminal_01x02 J101
 U 1 1 5CD68AD6
-P 1250 6550
-F 0 "J101" H 1400 6700 50  0000 C CNN
-F 1 "Screw_Terminal_01x02" H 1500 6300 50  0000 C CNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_Altech_AK300-2_P5.00mm" H 1250 6550 50  0001 C CNN
-F 3 "~" H 1250 6550 50  0001 C CNN
-	1    1250 6550
+P 650 6550
+F 0 "J101" H 600 6700 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" V 750 6200 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Altech_AK300-2_P5.00mm" H 650 6550 50  0001 C CNN
+F 3 "~" H 650 6550 50  0001 C CNN
+	1    650  6550
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -3504,17 +3516,6 @@ F 3 "~" H 1000 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C105
-U 1 1 5CC01495
-P 1400 4150
-F 0 "C105" H 1515 4196 50  0000 L CNN
-F 1 "100n" H 1515 4105 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 1438 4000 50  0001 C CNN
-F 3 "~" H 1400 4150 50  0001 C CNN
-	1    1400 4150
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0126
 U 1 1 5CC014A2
 P 1400 4400
@@ -3945,28 +3946,6 @@ Wire Wire Line
 	9700 4850 8650 4850
 Wire Wire Line
 	9700 4950 8650 4950
-Text HLabel 8650 4050 0    50   Input ~ 0
-ADC_T_BED
-Text HLabel 8650 3950 0    50   Input ~ 0
-ADC_T_E1
-Text HLabel 8650 4300 0    50   Input ~ 0
-SW_Min_X
-Text HLabel 8650 4400 0    50   Input ~ 0
-SW_Min_Y
-Text HLabel 8650 4500 0    50   Input ~ 0
-SW_Min_Z
-Text HLabel 8650 4600 0    50   Input ~ 0
-SW_End_Filament1
-Text HLabel 8650 4750 0    50   Input ~ 0
-FAN1
-Text HLabel 8650 4850 0    50   Input ~ 0
-FAN2
-Text HLabel 8650 4950 0    50   Input ~ 0
-FAN3
-Text HLabel 8650 5100 0    50   Input ~ 0
-BED_ON
-Text HLabel 8650 5200 0    50   Input ~ 0
-E1_ON
 Wire Wire Line
 	4200 2600 4550 2600
 Wire Wire Line
@@ -4072,15 +4051,6 @@ Wire Wire Line
 	1900 6450 1900 6550
 Wire Wire Line
 	1900 6450 2250 6450
-Wire Wire Line
-	1450 6450 1900 6450
-Connection ~ 1900 6450
-Wire Wire Line
-	1700 7250 1550 7250
-Wire Wire Line
-	1550 7250 1550 6550
-Wire Wire Line
-	1550 6550 1450 6550
 $Comp
 L Device:D_Zener D105
 U 1 1 5CD1A22D
@@ -4111,8 +4081,6 @@ F 3 "~" H 2500 6450 50  0001 C CNN
 	1    2500 6450
 	0    1    1    0   
 $EndComp
-Text HLabel 8650 4150 0    50   Input ~ 0
-ADC_T_PCB
 $Sheet
 S 9700 3850 1150 1450
 U 5CA39F21
@@ -4135,4 +4103,84 @@ Wire Wire Line
 	8650 5100 9700 5100
 Wire Wire Line
 	9700 5200 8650 5200
+Text Label 950  6950 1    50   ~ 0
+24V_GND
+Text Label 1900 6450 0    50   ~ 0
+24V_IN
+$Comp
+L Device:R R104
+U 1 1 5CC041F6
+P 1450 6300
+F 0 "R104" H 1520 6346 50  0000 L CNN
+F 1 "10k" H 1520 6255 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206" V 1380 6300 50  0001 C CNN
+F 3 "~" H 1450 6300 50  0001 C CNN
+	1    1450 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L FHNW-Pro4E-FS19T8-Library:APHBM2012LSURKZGKC D106
+U 1 1 5CC0EDCA
+P 1350 6850
+F 0 "D106" V 1304 6640 50  0000 R CNN
+F 1 "APHBM2012LSURKZGKC" V 1395 6640 50  0000 R CNN
+F 2 "FHNW-Pro4E-FS19T8-Library:LED_Kingbright_SMD4_2.0x1.25" H 1380 6850 50  0001 C CNN
+F 3 "~" H 1380 6850 50  0001 C CNN
+	1    1350 6850
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	950  7250 950  6550
+Wire Wire Line
+	950  6550 850  6550
+Wire Wire Line
+	950  7250 1450 7250
+Wire Wire Line
+	1450 7150 1450 7250
+Connection ~ 1450 7250
+Wire Wire Line
+	1450 7250 1700 7250
+Wire Wire Line
+	950  6550 1250 6550
+Connection ~ 950  6550
+Wire Wire Line
+	1250 7150 1250 7200
+Wire Wire Line
+	1250 7200 1600 7200
+Wire Wire Line
+	1600 7200 1600 6500
+Wire Wire Line
+	1600 6500 1450 6500
+Wire Wire Line
+	1450 6500 1450 6550
+Wire Wire Line
+	850  6450 950  6450
+Wire Wire Line
+	950  6450 950  6100
+Wire Wire Line
+	950  6100 1450 6100
+Wire Wire Line
+	1800 6100 1800 6450
+Wire Wire Line
+	1800 6450 1900 6450
+Connection ~ 1900 6450
+Wire Wire Line
+	1450 6450 1450 6500
+Connection ~ 1450 6500
+Wire Wire Line
+	1450 6150 1450 6100
+Connection ~ 1450 6100
+Wire Wire Line
+	1450 6100 1800 6100
+$Comp
+L Device:C C105
+U 1 1 5CC01495
+P 1400 4150
+F 0 "C105" H 1515 4196 50  0000 L CNN
+F 1 "100n" H 1515 4105 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 1438 4000 50  0001 C CNN
+F 3 "~" H 1400 4150 50  0001 C CNN
+	1    1400 4150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

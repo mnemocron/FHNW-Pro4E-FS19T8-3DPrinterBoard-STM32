@@ -2835,17 +2835,6 @@ Wire Wire Line
 Wire Wire Line
 	14650 5400 14800 5400
 $Comp
-L power:+5V #PWR04
-U 1 1 5CBEBF25
-P 14800 5350
-F 0 "#PWR04" H 14800 5200 50  0001 C CNN
-F 1 "+5V" H 14815 5523 50  0000 C CNN
-F 2 "" H 14800 5350 50  0001 C CNN
-F 3 "" H 14800 5350 50  0001 C CNN
-	1    14800 5350
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR03
 U 1 1 5CBED41A
 P 14700 4550
@@ -2932,17 +2921,6 @@ Wire Wire Line
 	14800 6750 14800 6800
 Wire Wire Line
 	14650 6800 14800 6800
-$Comp
-L power:+5V #PWR0224
-U 1 1 5CC4D210
-P 14800 6750
-F 0 "#PWR0224" H 14800 6600 50  0001 C CNN
-F 1 "+5V" H 14815 6923 50  0000 C CNN
-F 2 "" H 14800 6750 50  0001 C CNN
-F 3 "" H 14800 6750 50  0001 C CNN
-	1    14800 6750
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+5V #PWR0223
 U 1 1 5CC4D21A
@@ -3286,13 +3264,13 @@ Wire Wire Line
 	7900 6800 8100 6800
 Text Notes 8550 6850 0    50   ~ 0
 INT
-Text HLabel 10850 2100 2    50   Input ~ 0
-USART1_TX
-Text HLabel 10850 2200 2    50   Input ~ 0
-USART1_RX
 Text HLabel 10850 2800 2    50   Input ~ 0
-USART2_TX
+USART1_TX
 Text HLabel 10850 2900 2    50   Input ~ 0
+USART1_RX
+Text HLabel 10850 2100 2    50   Input ~ 0
+USART2_TX
+Text HLabel 10850 2200 2    50   Input ~ 0
 USART2_RX
 Text HLabel 11750 4800 1    50   Input ~ 0
 SPI2_SCK
@@ -3769,26 +3747,16 @@ Text HLabel 7900 3900 0    50   Input ~ 0
 CS_Z1
 Text HLabel 10900 8300 2    50   Input ~ 0
 STALL_Z1
-Text HLabel 7900 5800 0    50   Input ~ 0
+Text HLabel 10850 2400 2    50   Input ~ 0
 STEP_X
-Text HLabel 7900 5700 0    50   Input ~ 0
+Text HLabel 10850 2500 2    50   Input ~ 0
 DIR_X
-Text HLabel 7900 5600 0    50   Input ~ 0
+Text HLabel 10850 2600 2    50   Input ~ 0
 STALL_X
-Text HLabel 7900 5500 0    50   Input ~ 0
+Text HLabel 7900 6400 0    50   Input ~ 0
 EN_X
-Text HLabel 7900 5400 0    50   Input ~ 0
+Text HLabel 7900 6500 0    50   Input ~ 0
 CS_X
-Wire Wire Line
-	7900 5600 8100 5600
-Wire Wire Line
-	8100 5700 7900 5700
-Wire Wire Line
-	7900 5400 8100 5400
-Wire Wire Line
-	8100 5500 7900 5500
-Wire Wire Line
-	7900 5800 8100 5800
 $Comp
 L Device:C C214
 U 1 1 5CE6D10B
@@ -3828,9 +3796,9 @@ F 3 "" H 5300 10300 50  0001 C CNN
 	1    5300 10300
 	1    0    0    -1  
 $EndComp
-Text HLabel 10900 5600 2    50   Input ~ 0
-ADC_T_E1
 Text HLabel 10900 5500 2    50   Input ~ 0
+ADC_T_E1
+Text HLabel 10900 5600 2    50   Input ~ 0
 ADC_T_BED
 Wire Wire Line
 	10900 5500 10700 5500
@@ -3838,7 +3806,7 @@ Wire Wire Line
 	10700 5600 10900 5600
 Text HLabel 10850 4700 2    50   Input ~ 0
 BED_ON
-Text HLabel 10900 4400 2    50   Input ~ 0
+Text HLabel 10850 4600 2    50   Input ~ 0
 E1_ON
 Wire Wire Line
 	10850 4700 10700 4700
@@ -3916,4 +3884,68 @@ Wire Wire Line
 	7100 10550 7200 10550
 NoConn ~ 7200 9150
 NoConn ~ 6500 9150
+$Comp
+L power:+3.3V #PWR0173
+U 1 1 5CD063D1
+P 14800 5350
+F 0 "#PWR0173" H 14800 5200 50  0001 C CNN
+F 1 "+3.3V" H 14800 5500 50  0000 C CNN
+F 2 "" H 14800 5350 50  0001 C CNN
+F 3 "" H 14800 5350 50  0001 C CNN
+	1    14800 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0187
+U 1 1 5CD069D4
+P 14800 6750
+F 0 "#PWR0187" H 14800 6600 50  0001 C CNN
+F 1 "+3.3V" H 14800 6900 50  0000 C CNN
+F 2 "" H 14800 6750 50  0001 C CNN
+F 3 "" H 14800 6750 50  0001 C CNN
+	1    14800 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10850 2400 10700 2400
+Wire Wire Line
+	10850 2500 10700 2500
+Wire Wire Line
+	10850 2600 10700 2600
+Wire Wire Line
+	7900 6500 8100 6500
+Wire Wire Line
+	7900 6400 8100 6400
+Text HLabel 7900 5600 0    50   Input ~ 0
+FAN1
+Text HLabel 7900 5700 0    50   Input ~ 0
+FAN2
+Text HLabel 7900 5800 0    50   Input ~ 0
+FAN3
+Wire Wire Line
+	7900 5800 8100 5800
+Wire Wire Line
+	7900 5700 8100 5700
+Wire Wire Line
+	7900 5600 8100 5600
+Text HLabel 10850 2000 2    50   Input ~ 0
+ADC_T_PCB
+Wire Wire Line
+	10850 2000 10700 2000
+Text HLabel 7900 5400 0    50   Input ~ 0
+SW_Min_X
+Text HLabel 7900 5500 0    50   Input ~ 0
+SW_Min_Y
+Text HLabel 7900 7500 0    50   Input ~ 0
+SW_Min_Z1
+Text HLabel 7900 7400 0    50   Input ~ 0
+SW_Min_Filament1
+Wire Wire Line
+	7900 7400 8100 7400
+Wire Wire Line
+	8100 7500 7900 7500
+Wire Wire Line
+	7900 5400 8100 5400
+Wire Wire Line
+	8100 5500 7900 5500
 $EndSCHEMATC
