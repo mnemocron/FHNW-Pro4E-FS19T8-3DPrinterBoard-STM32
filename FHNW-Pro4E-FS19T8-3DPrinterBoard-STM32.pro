@@ -1,4 +1,4 @@
-update=23/04/2019 12:33:58
+update=23/04/2019 19:13:02
 version=1
 last_client=kicad
 [general]
@@ -81,6 +81,17 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
+Name=Power 5V
+Clearance=0.1
+TrackWidth=0.6
+ViaDiameter=1
+ViaDrill=0.5
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/3]
 Name=Stepper Motors
 Clearance=0.2
 TrackWidth=1.2
