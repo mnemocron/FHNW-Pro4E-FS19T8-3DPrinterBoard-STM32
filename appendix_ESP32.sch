@@ -2124,4 +2124,5 @@ Text HLabel 5850 3100 2    50   Input ~ 0
 ESP_RX_STM
 Text HLabel 5850 3200 2    50   Input ~ 0
 ESP_TX_STM
+NoConn ~ 5650 2300
 $EndSCHEMATC

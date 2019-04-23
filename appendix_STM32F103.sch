@@ -3304,10 +3304,8 @@ Text HLabel 7900 3600 0    50   Input ~ 0
 EN_Y
 Text HLabel 7900 3700 0    50   Input ~ 0
 CS_Y
-Text HLabel 7900 3800 0    50   Input ~ 0
+Text HLabel 10900 8100 2    50   Input ~ 0
 STEP_Z1
-Text HLabel 7900 3900 0    50   Input ~ 0
-DIR_Z1
 Text HLabel 7900 4000 0    50   Input ~ 0
 STEP_E1
 Text HLabel 7900 4100 0    50   Input ~ 0
@@ -3324,14 +3322,6 @@ Text HLabel 7900 6700 0    50   Input ~ 0
 DIR_Y
 Text HLabel 7900 6800 0    50   Input ~ 0
 STALL_Y
-Text HLabel 10900 8100 2    50   Input ~ 0
-CS_Z1
-Text HLabel 10900 8200 2    50   Input ~ 0
-EN_Z1
-Text HLabel 10900 8300 2    50   Input ~ 0
-STALL_Z1
-Text Notes 14200 3550 0    50   ~ 0
-double check pinout with footprint!!!
 Wire Wire Line
 	14850 5100 14650 5100
 Wire Wire Line
@@ -3466,28 +3456,6 @@ F 3 "" H 6500 9250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6500 9250 6600 9250
-$Comp
-L power:+5V #PWR0172
-U 1 1 5D3333A6
-P 7200 9150
-F 0 "#PWR0172" H 7200 9000 50  0001 C CNN
-F 1 "+5V" V 7200 9350 50  0000 C CNN
-F 2 "" H 7200 9150 50  0001 C CNN
-F 3 "" H 7200 9150 50  0001 C CNN
-	1    7200 9150
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+5V #PWR0173
-U 1 1 5D334323
-P 6500 9150
-F 0 "#PWR0173" H 6500 9000 50  0001 C CNN
-F 1 "+5V" V 6500 9350 50  0000 C CNN
-F 2 "" H 6500 9150 50  0001 C CNN
-F 3 "" H 6500 9150 50  0001 C CNN
-	1    6500 9150
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	6500 9150 6600 9150
 Wire Wire Line
@@ -3521,8 +3489,6 @@ Wire Wire Line
 	6600 9450 6500 9450
 Wire Wire Line
 	7100 9350 7200 9350
-Text GLabel 7200 9450 2    50   Input ~ 0
-E3_CS
 Text GLabel 7200 9550 2    50   Input ~ 0
 E2_CS
 Text GLabel 7200 9650 2    50   Input ~ 0
@@ -3745,7 +3711,7 @@ $Comp
 L Device:R R217
 U 1 1 5CDCD7F7
 P 14100 8500
-F 0 "R217" V 14200 8550 50  0000 C CNN
+F 0 "R217" V 14200 8500 50  0000 C CNN
 F 1 "200R" V 14100 8500 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 14030 8500 50  0001 C CNN
 F 3 "~" H 14100 8500 50  0001 C CNN
@@ -3791,4 +3757,163 @@ F 3 "~" H 6800 9850 50  0001 C CNN
 	1    6800 9850
 	1    0    0    -1  
 $EndComp
+Text Notes 7950 10350 0    50   ~ 0
+RC_ für ADC\n
+Text Notes 13950 8100 0    50   ~ 0
+TVS Diode
+Text HLabel 10900 8200 2    50   Input ~ 0
+DIR_Z1
+Text HLabel 7900 3800 0    50   Input ~ 0
+EN_Z1
+Text HLabel 7900 3900 0    50   Input ~ 0
+CS_Z1
+Text HLabel 10900 8300 2    50   Input ~ 0
+STALL_Z1
+Text HLabel 7900 5800 0    50   Input ~ 0
+STEP_X
+Text HLabel 7900 5700 0    50   Input ~ 0
+DIR_X
+Text HLabel 7900 5600 0    50   Input ~ 0
+STALL_X
+Text HLabel 7900 5500 0    50   Input ~ 0
+EN_X
+Text HLabel 7900 5400 0    50   Input ~ 0
+CS_X
+Wire Wire Line
+	7900 5600 8100 5600
+Wire Wire Line
+	8100 5700 7900 5700
+Wire Wire Line
+	7900 5400 8100 5400
+Wire Wire Line
+	8100 5500 7900 5500
+Wire Wire Line
+	7900 5800 8100 5800
+$Comp
+L Device:C C214
+U 1 1 5CE6D10B
+P 5300 10550
+F 0 "C214" H 5415 10596 50  0000 L CNN
+F 1 "100n" H 5415 10505 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5338 10400 50  0001 C CNN
+F 3 "~" H 5300 10550 50  0001 C CNN
+	1    5300 10550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0235
+U 1 1 5CE6D115
+P 5300 10800
+F 0 "#PWR0235" H 5300 10550 50  0001 C CNN
+F 1 "GND" H 5305 10627 50  0000 C CNN
+F 2 "" H 5300 10800 50  0001 C CNN
+F 3 "" H 5300 10800 50  0001 C CNN
+	1    5300 10800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 10400 5300 10300
+Wire Wire Line
+	5300 10800 5300 10700
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 5CE9FD57
+P 5300 10300
+AR Path="/5CE9FD57" Ref="#PWR?"  Part="1" 
+AR Path="/5CA3954A/5CE9FD57" Ref="#PWR0234"  Part="1" 
+F 0 "#PWR0234" H 5300 10150 50  0001 C CNN
+F 1 "+3.3VA" H 5315 10473 50  0000 C CNN
+F 2 "" H 5300 10300 50  0001 C CNN
+F 3 "" H 5300 10300 50  0001 C CNN
+	1    5300 10300
+	1    0    0    -1  
+$EndComp
+Text HLabel 10900 5600 2    50   Input ~ 0
+ADC_T_E1
+Text HLabel 10900 5500 2    50   Input ~ 0
+ADC_T_BED
+Wire Wire Line
+	10900 5500 10700 5500
+Wire Wire Line
+	10700 5600 10900 5600
+Text HLabel 10850 4700 2    50   Input ~ 0
+BED_ON
+Text HLabel 10900 4400 2    50   Input ~ 0
+E1_ON
+Wire Wire Line
+	10850 4700 10700 4700
+Wire Wire Line
+	10850 4600 10700 4600
+Text GLabel 6500 9550 0    50   Input ~ 0
+E3_CS
+Text GLabel 6500 9650 0    50   Input ~ 0
+E3_STEP
+Text GLabel 6500 9750 0    50   Input ~ 0
+E3_DIR
+Text GLabel 6500 9850 0    50   Input ~ 0
+E3_EN
+Text GLabel 6500 9950 0    50   Input ~ 0
+E3_STALL
+Text GLabel 6500 10050 0    50   Input ~ 0
+E3_END_FIL
+Text GLabel 6500 10150 0    50   Input ~ 0
+E3_ADC_TEMP
+Text GLabel 6500 10250 0    50   Input ~ 0
+ADC_TEMP_EXT
+Text GLabel 6500 10350 0    50   Input ~ 0
+GPIO_EXT_1
+Text GLabel 6500 10450 0    50   Input ~ 0
+GPIO_EXT_2
+Text GLabel 6500 10550 0    50   Input ~ 0
+GPIO_EXT_3
+Text GLabel 7200 9450 2    50   Input ~ 0
+GPIO_EXT_0
+Wire Wire Line
+	6500 9650 6600 9650
+Wire Wire Line
+	6500 9550 6600 9550
+Wire Wire Line
+	6500 9750 6600 9750
+Wire Wire Line
+	6600 9850 6500 9850
+Wire Wire Line
+	6500 10050 6600 10050
+Wire Wire Line
+	6500 9950 6600 9950
+Wire Wire Line
+	6500 10150 6600 10150
+Wire Wire Line
+	6600 10250 6500 10250
+Wire Wire Line
+	6500 10450 6600 10450
+Wire Wire Line
+	6500 10350 6600 10350
+Wire Wire Line
+	6500 10550 6600 10550
+Wire Wire Line
+	7200 9450 7100 9450
+Wire Wire Line
+	7100 9650 7200 9650
+Wire Wire Line
+	7100 9550 7200 9550
+Wire Wire Line
+	7100 9750 7200 9750
+Wire Wire Line
+	7200 9850 7100 9850
+Wire Wire Line
+	7100 10050 7200 10050
+Wire Wire Line
+	7100 9950 7200 9950
+Wire Wire Line
+	7100 10150 7200 10150
+Wire Wire Line
+	7200 10250 7100 10250
+Wire Wire Line
+	7100 10450 7200 10450
+Wire Wire Line
+	7100 10350 7200 10350
+Wire Wire Line
+	7100 10550 7200 10550
+NoConn ~ 7200 9150
+NoConn ~ 6500 9150
 $EndSCHEMATC
