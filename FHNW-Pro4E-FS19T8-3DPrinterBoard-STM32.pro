@@ -1,4 +1,4 @@
-update=24/04/2019 16:18:00
+update=24/04/2019 21:30:30
 version=1
 last_client=kicad
 [general]
@@ -85,6 +85,17 @@ dPairViaGap=0.25
 Name=Stepper Motors
 Clearance=0.2
 TrackWidth=1.2
+ViaDiameter=1
+ViaDrill=0.5
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/4]
+Name=high current
+Clearance=0.2
+TrackWidth=2.5
 ViaDiameter=1
 ViaDrill=0.5
 uViaDiameter=0.3
