@@ -4962,4 +4962,30 @@ Wire Wire Line
 	9900 8000 9700 8000
 Wire Wire Line
 	6900 7300 7100 7300
+Text Notes 7500 5350 0    50   ~ 0
+INT
+Text Notes 7500 5450 0    50   ~ 0
+INT
+Text Notes 7500 5550 0    50   ~ 0
+INT
+Text Notes 7550 7350 0    50   ~ 0
+INT
+Text Notes 7550 7450 0    50   ~ 0
+INT
+Text Notes 7550 7550 0    50   ~ 0
+INT
+Text Notes 9150 2650 0    50   ~ 0
+INT
+Text Notes 9150 4450 0    50   ~ 0
+INT
+Text Notes 9150 4550 0    50   ~ 0
+INT
+Text Notes 9100 8050 0    50   ~ 0
+INT
+Text Notes 7550 4750 0    50   ~ 0
+INT
+Text Notes 7550 4850 0    50   ~ 0
+INT
+Text Notes 7550 5050 0    50   ~ 0
+INT
 $EndSCHEMATC
