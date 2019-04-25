@@ -120,8 +120,6 @@ Wire Wire Line
 Wire Wire Line
 	4750 6650 4750 6600
 Wire Wire Line
-	4750 6600 5250 6600
-Wire Wire Line
 	4750 6500 4750 6400
 $Comp
 L FHNW-Pro4E-FS19T8-Library:BUK963R3-60E T403
@@ -160,8 +158,6 @@ Wire Wire Line
 	4450 5450 4550 5450
 Wire Wire Line
 	4750 5250 4750 5200
-Wire Wire Line
-	4750 5200 5250 5200
 Wire Wire Line
 	7100 2200 7100 2300
 Wire Wire Line
@@ -567,19 +563,6 @@ F 3 "~" H 4300 2850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J?
-U 1 1 5CE15986
-P 5450 6500
-AR Path="/5CE15986" Ref="J?"  Part="1" 
-AR Path="/5CA39F21/5CE15986" Ref="J403"  Part="1" 
-F 0 "J403" H 5600 6500 50  0000 C CNN
-F 1 "Screw_Terminal_01x02" H 5950 6400 50  0000 C CNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_Altech_AK300-2_P5.00mm" H 5450 6500 50  0001 C CNN
-F 3 "~" H 5450 6500 50  0001 C CNN
-	1    5450 6500
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0406
 U 1 1 5CE79ADB
 P 7450 3800
@@ -594,19 +577,6 @@ Wire Wire Line
 	7450 3800 7450 3400
 Wire Wire Line
 	7450 3400 7500 3400
-$Comp
-L Connector:Screw_Terminal_01x02 J?
-U 1 1 5CE79AE7
-P 5450 5100
-AR Path="/5CE79AE7" Ref="J?"  Part="1" 
-AR Path="/5CA39F21/5CE79AE7" Ref="J406"  Part="1" 
-F 0 "J406" H 5600 5100 50  0000 C CNN
-F 1 "Screw_Terminal_01x02" H 5950 5000 50  0000 C CNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_Altech_AK300-2_P5.00mm" H 5450 5100 50  0001 C CNN
-F 3 "~" H 5450 5100 50  0001 C CNN
-	1    5450 5100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7100 3300 7450 3300
 Wire Wire Line
@@ -3286,4 +3256,39 @@ F 3 "" H 9900 3000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9900 3000 9900 3400
+Wire Wire Line
+	4750 6600 5500 6600
+Wire Wire Line
+	5600 6500 5600 6050
+Wire Wire Line
+	5600 6050 5650 6050
+Wire Wire Line
+	5250 6500 5600 6500
+Wire Wire Line
+	5650 5950 5500 5950
+Wire Wire Line
+	5500 5950 5500 6600
+$Comp
+L Connector:Screw_Terminal_01x04 J403
+U 1 1 5CC229A7
+P 5850 5850
+F 0 "J403" H 5930 5842 50  0000 L CNN
+F 1 "Screw_Terminal_01x04" H 5930 5751 50  0000 L CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Altech_AK300-4_P5.00mm" H 5850 5850 50  0001 C CNN
+F 3 "~" H 5850 5850 50  0001 C CNN
+	1    5850 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 5100 5500 5100
+Wire Wire Line
+	5500 5100 5500 5850
+Wire Wire Line
+	5500 5850 5650 5850
+Wire Wire Line
+	5650 5750 5600 5750
+Wire Wire Line
+	5600 5750 5600 5200
+Wire Wire Line
+	5600 5200 4750 5200
 $EndSCHEMATC
