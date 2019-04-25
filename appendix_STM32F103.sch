@@ -2718,11 +2718,11 @@ Text GLabel 13600 4050 0    50   Input ~ 0
 EXP3_LCD_CS
 Text GLabel 13600 3750 0    50   Input ~ 0
 EXP3_LCD_Beeper
-Text GLabel 14850 6500 2    50   Input ~ 0
-EXP3_LCD_CS
 Text GLabel 14850 6300 2    50   Input ~ 0
-EXP3_LCD_Encoder_B
+EXP3_LCD_CS
 Text GLabel 14850 6400 2    50   Input ~ 0
+EXP3_LCD_Encoder_B
+Text GLabel 14850 6500 2    50   Input ~ 0
 EXP3_LCD_Encoder_A
 Text GLabel 14850 6200 2    50   Input ~ 0
 EXP3_LCD_Beeper
@@ -4073,7 +4073,6 @@ NoConn ~ 7100 5900
 NoConn ~ 9700 3700
 NoConn ~ 7100 7700
 NoConn ~ 7100 7800
-NoConn ~ 9700 8500
 NoConn ~ 9700 7400
 NoConn ~ 9700 7500
 Text Notes 7500 4250 0    50   ~ 0
@@ -4251,17 +4250,15 @@ Wire Wire Line
 	6900 5400 7100 5400
 Wire Wire Line
 	7100 5500 6900 5500
-Text GLabel 6900 7200 0    50   Input ~ 0
+Text GLabel 6900 7300 0    50   Input ~ 0
 LCD_ENC_BTN
-Wire Wire Line
-	7100 7200 6900 7200
 Text GLabel 6900 7100 0    50   Input ~ 0
 LCD_BUZZER
-Text GLabel 6900 7000 0    50   Input ~ 0
-LCD_ENC_B
 Text GLabel 9850 4500 2    50   Input ~ 0
-LCD_ENC_A
+LCD_ENC_B
 Text GLabel 9850 4400 2    50   Input ~ 0
+LCD_ENC_A
+Text GLabel 6900 7000 0    50   Input ~ 0
 LCD_CS
 Wire Wire Line
 	9850 4400 9700 4400
@@ -4353,11 +4350,11 @@ Wire Wire Line
 	10600 2400 10600 2350
 Wire Notes Line
 	16050 3150 11800 3150
-Text GLabel 13450 6500 0    50   Input ~ 0
-LCD_CS
 Text GLabel 13450 6300 0    50   Input ~ 0
-LCD_ENC_B
+LCD_CS
 Text GLabel 13450 6400 0    50   Input ~ 0
+LCD_ENC_B
+Text GLabel 13450 6500 0    50   Input ~ 0
 LCD_ENC_A
 Text GLabel 13450 6200 0    50   Input ~ 0
 LCD_BUZZER
@@ -4528,10 +4525,8 @@ Text GLabel 9900 6000 2    50   Input ~ 0
 BTN_USER_2
 Wire Wire Line
 	9900 6000 9700 6000
-Text GLabel 9900 5900 2    50   Input ~ 0
+Text GLabel 9900 8000 2    50   Input ~ 0
 BTN_USER_1
-Wire Wire Line
-	9900 5900 9700 5900
 $Comp
 L power:+3.3V #PWR0258
 U 1 1 5DD9B5CA
@@ -4808,14 +4803,12 @@ Text GLabel 9900 7800 2    50   Input ~ 0
 GPIO_EXT_0
 Text GLabel 9900 7900 2    50   Input ~ 0
 E2_CS
-Text GLabel 9900 8000 2    50   Input ~ 0
+Text GLabel 9900 8500 2    50   Input ~ 0
 E3_CS
 Wire Wire Line
 	9900 7800 9700 7800
 Wire Wire Line
 	9700 7900 9900 7900
-Wire Wire Line
-	9900 8000 9700 8000
 Text GLabel 9900 8400 2    50   Input ~ 0
 E2_STEP
 Wire Wire Line
@@ -4919,23 +4912,23 @@ Wire Wire Line
 	6900 4500 7100 4500
 Wire Wire Line
 	7100 4600 6900 4600
-Text GLabel 5750 7300 0    50   Input ~ 0
+Text GLabel 5750 7200 0    50   Input ~ 0
 LCD_Reset
 $Comp
 L Device:R R222
 U 1 1 5CCE79DA
-P 6100 7300
-F 0 "R222" V 6200 7300 50  0000 C CNN
-F 1 "0R" V 6100 7300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6030 7300 50  0001 C CNN
-F 3 "~" H 6100 7300 50  0001 C CNN
-	1    6100 7300
+P 6100 7200
+F 0 "R222" V 6200 7200 50  0000 C CNN
+F 1 "0R" V 6100 7200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6030 7200 50  0001 C CNN
+F 3 "~" H 6100 7200 50  0001 C CNN
+	1    6100 7200
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5950 7300 5750 7300
+	5950 7200 5750 7200
 Wire Wire Line
-	7100 7300 6250 7300
+	7100 7200 6250 7200
 $Comp
 L power:+3.3VA #PWR0267
 U 1 1 5CDF6C38
@@ -4962,4 +4955,11 @@ F 3 "" H 7050 2400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7050 2400 7100 2400
+Wire Wire Line
+	9900 8500 9700 8500
+NoConn ~ 9700 5900
+Wire Wire Line
+	9900 8000 9700 8000
+Wire Wire Line
+	6900 7300 7100 7300
 $EndSCHEMATC

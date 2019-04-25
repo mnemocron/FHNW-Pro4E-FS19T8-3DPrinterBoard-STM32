@@ -1797,13 +1797,13 @@ $EndComp
 $Comp
 L Connector:Screw_Terminal_01x02 J101
 U 1 1 5CD68AD6
-P 650 6550
-F 0 "J101" H 600 6700 50  0000 C CNN
-F 1 "Screw_Terminal_01x02" V 750 6200 50  0000 C CNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_Altech_AK300-2_P5.00mm" H 650 6550 50  0001 C CNN
-F 3 "~" H 650 6550 50  0001 C CNN
-	1    650  6550
-	-1   0    0    1   
+P 650 6450
+F 0 "J101" H 600 6600 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" V 750 6700 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Altech_AK300-2_P5.00mm" H 650 6450 50  0001 C CNN
+F 3 "~" H 650 6450 50  0001 C CNN
+	1    650  6450
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	2650 6450 2950 6450
