@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:GND #PWR0136
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR0136
 U 1 1 5CA3C9F2
 P 5050 4850
 F 0 "#PWR0136" H 5050 4600 50  0001 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 5050 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0137
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3V-power #PWR0137
 U 1 1 5CA3CA30
 P 5050 1750
 F 0 "#PWR0137" H 5050 1600 50  0001 C CNN
@@ -37,7 +37,7 @@ F 3 "" H 5050 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RF_Module:ESP32-WROOM-32 U301
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:ESP32-WROOM-32-RF_Module U301
 U 1 1 5CA47080
 P 5050 3300
 F 0 "U301" H 4650 4650 50  0000 C CNN
@@ -211,7 +211,7 @@ Wire Wire Line
 Wire Wire Line
 	5050 4850 5050 4700
 $Comp
-L Device:R R302
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:R-Device R302
 U 1 1 5CBF31BB
 P 9000 2350
 F 0 "R302" V 8793 2350 50  0000 C CNN
@@ -222,7 +222,7 @@ F 3 "~" H 9000 2350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R303
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:R-Device R303
 U 1 1 5CBF3EA7
 P 9000 3000
 F 0 "R303" V 8793 3000 50  0000 C CNN
@@ -277,7 +277,7 @@ Wire Wire Line
 Text Label 3550 2100 0    50   ~ 0
 ESP32_RESET
 $Comp
-L Device:R R301
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:R-Device R301
 U 1 1 5CBFAC95
 P 4200 1900
 F 0 "R301" H 4270 1946 50  0000 L CNN
@@ -288,7 +288,7 @@ F 3 "~" H 4200 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0138
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3V-power #PWR0138
 U 1 1 5CBFC50E
 P 4200 1750
 F 0 "#PWR0138" H 4200 1600 50  0001 C CNN
@@ -308,7 +308,7 @@ Wire Wire Line
 Text Notes 6300 3750 0    50   ~ 0
 ESP3D Settings Reset
 $Comp
-L Switch:SW_Push SW?
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:SW_Push-Switch SW?
 U 1 1 5CD80C30
 P 6500 4050
 AR Path="/5CA3954A/5CD80C30" Ref="SW?"  Part="1" 
@@ -321,7 +321,7 @@ F 3 "~" H 6500 4250 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:C C?
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:C-Device C?
 U 1 1 5CD80C36
 P 6200 4050
 AR Path="/5CA3954A/5CD80C36" Ref="C?"  Part="1" 
@@ -334,7 +334,7 @@ F 3 "~" H 6200 4050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR?
 U 1 1 5CD80C3C
 P 6200 4400
 AR Path="/5CA3954A/5CD80C3C" Ref="#PWR?"  Part="1" 
@@ -363,7 +363,7 @@ Wire Wire Line
 Connection ~ 6200 4300
 Connection ~ 6200 3800
 $Comp
-L Device:R R?
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:R-Device R?
 U 1 1 5CD80C4C
 P 6200 3600
 AR Path="/5CA3954A/5CD80C4C" Ref="R?"  Part="1" 
@@ -378,7 +378,7 @@ $EndComp
 Wire Wire Line
 	6200 3800 6200 3750
 $Comp
-L power:+3.3V #PWR?
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3V-power #PWR?
 U 1 1 5CD80C53
 P 6200 3450
 AR Path="/5CA3954A/5CD80C53" Ref="#PWR?"  Part="1" 
@@ -393,7 +393,7 @@ $EndComp
 NoConn ~ 4450 2300
 NoConn ~ 4450 2400
 $Comp
-L Switch:SW_Push SW?
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:SW_Push-Switch SW?
 U 1 1 5CD83394
 P 3900 2350
 AR Path="/5CA3954A/5CD83394" Ref="SW?"  Part="1" 
@@ -406,7 +406,7 @@ F 3 "~" H 3900 2550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C?
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:C-Device C?
 U 1 1 5CD8339E
 P 4200 2350
 AR Path="/5CA3954A/5CD8339E" Ref="C?"  Part="1" 
@@ -419,7 +419,7 @@ F 3 "~" H 4200 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR?
 U 1 1 5CD833A8
 P 4200 2700
 AR Path="/5CA3954A/5CD833A8" Ref="#PWR?"  Part="1" 
@@ -2085,7 +2085,7 @@ E6 92 8C 48 A4 65 B3 B7 C0 30 0C C3 7C 77 60 ED 2C C3 30 F7 09 F4 7B 46 F1 59 F1
 EndData
 $EndBitmap
 $Comp
-L Transistor_BJT:2N3904 Q1
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:2N3904-Transistor_BJT Q1
 U 1 1 5CBE1CFC
 P 9500 2350
 F 0 "Q1" H 9690 2396 50  0000 L CNN
@@ -2096,7 +2096,7 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 9500 2350 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:2N3904 Q2
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:2N3904-Transistor_BJT Q2
 U 1 1 5CBE30DA
 P 9500 3000
 F 0 "Q2" H 9690 2954 50  0000 L CNN
@@ -2124,7 +2124,7 @@ Text HLabel 5850 3200 2    50   Input ~ 0
 ESP_TX_STM
 NoConn ~ 5650 2300
 $Comp
-L power:GND #PWR?
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR?
 U 1 1 5D7E31F6
 P 3550 4850
 AR Path="/5CA3CC17/5D7E31F6" Ref="#PWR?"  Part="1" 
@@ -2142,7 +2142,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 4850 3550 4750
 $Comp
-L Device:CP C?
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:CP-Device C?
 U 1 1 5D7E31FE
 P 3550 4600
 AR Path="/5CA3CC17/5D7E31FE" Ref="C?"  Part="1" 
@@ -2156,7 +2156,7 @@ F 3 "~" H 3550 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3V-power #PWR?
 U 1 1 5D7E3204
 P 3550 4350
 AR Path="/5CA3954A/5D7E3204" Ref="#PWR?"  Part="1" 
@@ -2169,7 +2169,7 @@ F 3 "" H 3550 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR?
 U 1 1 5D7E3B0F
 P 3000 4850
 AR Path="/5CA3CC17/5D7E3B0F" Ref="#PWR?"  Part="1" 
@@ -2187,7 +2187,7 @@ Wire Wire Line
 Wire Wire Line
 	3000 4850 3000 4750
 $Comp
-L power:+3.3V #PWR?
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3V-power #PWR?
 U 1 1 5D7E3B25
 P 3000 4350
 AR Path="/5CA3954A/5D7E3B25" Ref="#PWR?"  Part="1" 
@@ -2200,7 +2200,7 @@ F 3 "" H 3000 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:C-Device C?
 U 1 1 5D7E529A
 P 3000 4600
 AR Path="/5CA3954A/5D7E529A" Ref="C?"  Part="1" 
@@ -2220,4 +2220,6 @@ Wire Wire Line
 	5850 2900 5650 2900
 Wire Wire Line
 	5850 2700 5650 2700
+Text Notes 8700 4050 0    50   ~ 10
+DTR RTS => EN IO0\n-------------\n 1   1        1  1\n 0   0        1  1\n 1   0        0  1\n 0   1        1  0
 $EndSCHEMATC

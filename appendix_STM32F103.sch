@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:C C204
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:C-Device C204
 U 1 1 5CA55090
 P 850 10550
 F 0 "C204" H 965 10596 50  0000 L CNN
@@ -26,7 +26,7 @@ F 3 "~" H 850 10550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0107
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR0107
 U 1 1 5CA56568
 P 850 10800
 F 0 "#PWR0107" H 850 10550 50  0001 C CNN
@@ -37,7 +37,7 @@ F 3 "" H 850 10800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0108
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3V-power #PWR0108
 U 1 1 5CA56CD7
 P 850 10300
 F 0 "#PWR0108" H 850 10150 50  0001 C CNN
@@ -52,7 +52,7 @@ Wire Wire Line
 Wire Wire Line
 	850  10800 850  10700
 $Comp
-L Device:C C205
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:C-Device C205
 U 1 1 5CA59D13
 P 1250 10550
 F 0 "C205" H 1365 10596 50  0000 L CNN
@@ -63,7 +63,7 @@ F 3 "~" H 1250 10550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0109
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR0109
 U 1 1 5CA59D1D
 P 1250 10800
 F 0 "#PWR0109" H 1250 10550 50  0001 C CNN
@@ -74,7 +74,7 @@ F 3 "" H 1250 10800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0110
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3V-power #PWR0110
 U 1 1 5CA59D27
 P 1250 10300
 F 0 "#PWR0110" H 1250 10150 50  0001 C CNN
@@ -89,7 +89,7 @@ Wire Wire Line
 Wire Wire Line
 	1250 10800 1250 10700
 $Comp
-L Device:C C206
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:C-Device C206
 U 1 1 5CA5BE7C
 P 1650 10550
 F 0 "C206" H 1765 10596 50  0000 L CNN
@@ -100,7 +100,7 @@ F 3 "~" H 1650 10550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0111
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR0111
 U 1 1 5CA5BE86
 P 1650 10800
 F 0 "#PWR0111" H 1650 10550 50  0001 C CNN
@@ -111,7 +111,7 @@ F 3 "" H 1650 10800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0112
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3V-power #PWR0112
 U 1 1 5CA5BE90
 P 1650 10300
 F 0 "#PWR0112" H 1650 10150 50  0001 C CNN
@@ -126,7 +126,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 10800 1650 10700
 $Comp
-L Device:C C207
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:C-Device C207
 U 1 1 5CA5BE9C
 P 2050 10550
 F 0 "C207" H 2165 10596 50  0000 L CNN
@@ -137,7 +137,7 @@ F 3 "~" H 2050 10550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0113
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR0113
 U 1 1 5CA5BEA6
 P 2050 10800
 F 0 "#PWR0113" H 2050 10550 50  0001 C CNN
@@ -148,7 +148,7 @@ F 3 "" H 2050 10800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0114
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3V-power #PWR0114
 U 1 1 5CA5BEB0
 P 2050 10300
 F 0 "#PWR0114" H 2050 10150 50  0001 C CNN
@@ -163,7 +163,7 @@ Wire Wire Line
 Wire Wire Line
 	2050 10800 2050 10700
 $Comp
-L Device:C C208
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:C-Device C208
 U 1 1 5CA5F3B1
 P 2450 10550
 F 0 "C208" H 2565 10596 50  0000 L CNN
@@ -174,7 +174,7 @@ F 3 "~" H 2450 10550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0115
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR0115
 U 1 1 5CA5F3BB
 P 2450 10800
 F 0 "#PWR0115" H 2450 10550 50  0001 C CNN
@@ -185,7 +185,7 @@ F 3 "" H 2450 10800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0116
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3V-power #PWR0116
 U 1 1 5CA5F3C5
 P 2450 10300
 F 0 "#PWR0116" H 2450 10150 50  0001 C CNN
@@ -200,7 +200,7 @@ Wire Wire Line
 Wire Wire Line
 	2450 10800 2450 10700
 $Comp
-L power:GND #PWR0117
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR0117
 U 1 1 5CA9D530
 P 11100 9500
 F 0 "#PWR0117" H 11100 9250 50  0001 C CNN
@@ -223,7 +223,7 @@ Wire Wire Line
 Text GLabel 1850 1900 0    50   Input ~ 0
 JTAG_TRST
 $Comp
-L Device:R R203
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:R-Device R203
 U 1 1 5CB89A78
 P 14800 8050
 F 0 "R203" V 14700 8100 50  0000 C CNN
@@ -234,7 +234,7 @@ F 3 "~" H 14800 8050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R204
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:R-Device R204
 U 1 1 5CB89E62
 P 15000 8050
 F 0 "R204" V 14900 8100 50  0000 C CNN
@@ -253,7 +253,7 @@ Wire Wire Line
 Wire Wire Line
 	14800 8800 15200 8800
 $Comp
-L Device:R R206
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:R-Device R206
 U 1 1 5CBAA3AC
 P 14800 9300
 F 0 "R206" V 14700 9350 50  0000 C CNN
@@ -268,7 +268,7 @@ Wire Wire Line
 Wire Wire Line
 	14800 8900 15200 8900
 $Comp
-L Device:R R205
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:R-Device R205
 U 1 1 5CBAEA23
 P 14600 9300
 F 0 "R205" V 14500 9350 50  0000 C CNN
@@ -283,7 +283,7 @@ Wire Wire Line
 Wire Wire Line
 	14600 8700 15200 8700
 $Comp
-L power:GND #PWR0119
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR0119
 U 1 1 5CBB26E4
 P 14700 9700
 F 0 "#PWR0119" H 14700 9450 50  0001 C CNN
@@ -305,7 +305,7 @@ Connection ~ 14700 9600
 Wire Wire Line
 	14700 9600 14800 9600
 $Comp
-L power:+3.3V #PWR0120
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3V-power #PWR0120
 U 1 1 5CBBABAF
 P 14800 7800
 F 0 "#PWR0120" H 14800 7650 50  0001 C CNN
@@ -325,7 +325,7 @@ Connection ~ 14800 7850
 Wire Wire Line
 	14800 7850 14800 7800
 $Comp
-L Connector:Micro_SD_Card_Det J201
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:Micro_SD_Card_Det-Connector J201
 U 1 1 5CA61784
 P 15000 1750
 F 0 "J201" H 14950 2567 50  0000 C CNN
@@ -336,7 +336,7 @@ F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catal
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0130
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3V-power #PWR0130
 U 1 1 5CA6D27C
 P 14100 1650
 F 0 "#PWR0130" H 14100 1500 50  0001 C CNN
@@ -347,7 +347,7 @@ F 3 "" H 14100 1650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0131
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR0131
 U 1 1 5CA7A03A
 P 14100 1850
 F 0 "#PWR0131" H 14100 1600 50  0001 C CNN
@@ -358,7 +358,7 @@ F 3 "" H 14100 1850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0133
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR0133
 U 1 1 5CA9304A
 P 15900 2350
 F 0 "#PWR0133" H 15900 2100 50  0001 C CNN
@@ -373,7 +373,7 @@ Wire Wire Line
 Wire Wire Line
 	15900 2250 15800 2250
 $Comp
-L Device:C C209
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:C-Device C209
 U 1 1 5CA9A5B0
 P 2850 10550
 F 0 "C209" H 2965 10596 50  0000 L CNN
@@ -384,7 +384,7 @@ F 3 "~" H 2850 10550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0134
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR0134
 U 1 1 5CA9A5BA
 P 2850 10800
 F 0 "#PWR0134" H 2850 10550 50  0001 C CNN
@@ -395,7 +395,7 @@ F 3 "" H 2850 10800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0135
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3V-power #PWR0135
 U 1 1 5CA9A5C4
 P 2850 10300
 F 0 "#PWR0135" H 2850 10150 50  0001 C CNN
@@ -416,9 +416,11 @@ LCD / Display
 Text Notes 12650 7450 0    98   ~ 0
 JTAG Connector
 $Comp
-L Connector:Conn_ARM_JTAG_SWD_10 J204
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:Conn_ARM_JTAG_SWD_10-Connector J204
 U 1 1 5CE2209B
 P 11100 8800
+AR Path="/5CE2209B" Ref="J204"  Part="1" 
+AR Path="/5CA3954A/5CE2209B" Ref="J204"  Part="1" 
 F 0 "J204" H 11450 9350 50  0000 R CNN
 F 1 "Conn_ARM_JTAG_SWD_10" V 10650 9250 50  0000 R CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 11100 8800 50  0001 C CNN
@@ -436,7 +438,7 @@ Wire Wire Line
 Text GLabel 15200 8500 2    50   Input ~ 0
 JTAG_RESET
 $Comp
-L power:+3.3V #PWR0118
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3V-power #PWR0118
 U 1 1 5CA9DE93
 P 11100 8000
 F 0 "#PWR0118" H 11100 7850 50  0001 C CNN
@@ -2063,7 +2065,7 @@ E6 92 8C 48 A4 65 B3 B7 C0 30 0C C3 7C 77 60 ED 2C C3 30 F7 09 F4 7B 46 F1 59 F1
 EndData
 $EndBitmap
 $Comp
-L power:GND #PWR0212
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR0212
 U 1 1 5CB9CD3A
 P 13600 4150
 F 0 "#PWR0212" H 13600 3900 50  0001 C CNN
@@ -2096,7 +2098,7 @@ Wire Wire Line
 Text Notes 15500 3350 2    50   ~ 0
 EXP3 Connector
 $Comp
-L Device:C C202
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:C-Device C202
 U 1 1 5CC296A8
 P 5750 10550
 F 0 "C202" H 5865 10596 50  0000 L CNN
@@ -2107,7 +2109,7 @@ F 3 "~" H 5750 10550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0218
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR0218
 U 1 1 5CC296B2
 P 5750 10800
 F 0 "#PWR0218" H 5750 10550 50  0001 C CNN
@@ -2118,7 +2120,7 @@ F 3 "" H 5750 10800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0213
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3V-power #PWR0213
 U 1 1 5CC296BC
 P 5750 10300
 F 0 "#PWR0213" H 5750 10150 50  0001 C CNN
@@ -2150,7 +2152,7 @@ Wire Wire Line
 Wire Wire Line
 	14700 4600 14650 4600
 $Comp
-L power:GND #PWR0219
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR0219
 U 1 1 5CC64FC9
 P 13550 5450
 F 0 "#PWR0219" H 13550 5200 50  0001 C CNN
@@ -2165,7 +2167,7 @@ Wire Wire Line
 Wire Wire Line
 	13550 5400 13600 5400
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J202
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:Conn_02x05_Odd_Even-Connector_Generic J202
 U 1 1 5CC9D0E7
 P 14000 3950
 F 0 "J202" H 14050 4367 50  0000 C CNN
@@ -2182,7 +2184,7 @@ EXP3_LCD_MOSI
 Wire Wire Line
 	13450 4800 13600 4800
 $Comp
-L power:+3.3V #PWR0216
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3V-power #PWR0216
 U 1 1 5CCACE4B
 P 13550 4550
 F 0 "#PWR0216" H 13550 4400 50  0001 C CNN
@@ -2201,7 +2203,7 @@ NoConn ~ 13600 5300
 Wire Wire Line
 	14850 5000 14650 5000
 $Comp
-L Device:R R212
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:R-Device R212
 U 1 1 5CD04150
 P 11850 9000
 F 0 "R212" V 11450 9000 50  0000 C CNN
@@ -2212,7 +2214,7 @@ F 3 "~" H 11850 9000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R210
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:R-Device R210
 U 1 1 5CD0523F
 P 11850 8800
 F 0 "R210" V 11450 8800 50  0000 C CNN
@@ -2223,7 +2225,7 @@ F 3 "~" H 11850 8800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R209
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:R-Device R209
 U 1 1 5CD053EB
 P 11850 8700
 F 0 "R209" V 11450 8700 50  0000 C CNN
@@ -2246,7 +2248,7 @@ Wire Wire Line
 Wire Wire Line
 	14650 5400 14800 5400
 $Comp
-L power:+5V #PWR03
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+5V-power #PWR03
 U 1 1 5CBED41A
 P 14700 4550
 F 0 "#PWR03" H 14700 4400 50  0001 C CNN
@@ -2257,7 +2259,7 @@ F 3 "" H 14700 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR02
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+5V-power #PWR02
 U 1 1 5CBEDA11
 P 14550 4150
 F 0 "#PWR02" H 14550 4000 50  0001 C CNN
@@ -2283,7 +2285,7 @@ Wire Wire Line
 Wire Wire Line
 	14700 6000 14650 6000
 $Comp
-L power:GND #PWR0225
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR0225
 U 1 1 5CC4D1EA
 P 13550 6850
 F 0 "#PWR0225" H 13550 6600 50  0001 C CNN
@@ -2302,7 +2304,7 @@ Wire Wire Line
 Wire Wire Line
 	13450 6300 13600 6300
 $Comp
-L power:+3.3V #PWR0222
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3V-power #PWR0222
 U 1 1 5CC4D1F8
 P 13550 5950
 F 0 "#PWR0222" H 13550 5800 50  0001 C CNN
@@ -2331,7 +2333,7 @@ Wire Wire Line
 Wire Wire Line
 	14650 6800 14800 6800
 $Comp
-L power:+5V #PWR0223
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+5V-power #PWR0223
 U 1 1 5CC4D21A
 P 14700 5950
 F 0 "#PWR0223" H 14700 5800 50  0001 C CNN
@@ -2342,7 +2344,7 @@ F 3 "" H 14700 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R216
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:R-Device R216
 U 1 1 5CCE5B07
 P 13500 2150
 F 0 "R216" V 13600 2050 50  0000 L CNN
@@ -2353,7 +2355,7 @@ F 3 "~" H 13500 2150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C203
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:C-Device C203
 U 1 1 5CCE5F42
 P 13850 2300
 F 0 "C203" H 13700 2200 50  0000 C CNN
@@ -2366,7 +2368,7 @@ $EndComp
 Text GLabel 13050 1350 0    50   Input ~ 0
 SD_DAT2
 $Comp
-L Device:R R215
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:R-Device R215
 U 1 1 5CD320F9
 P 14000 1150
 F 0 "R215" V 14100 1050 50  0000 L CNN
@@ -2377,7 +2379,7 @@ F 3 "~" H 14000 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R214
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:R-Device R214
 U 1 1 5CD356B0
 P 13800 1150
 F 0 "R214" V 13900 1050 50  0000 L CNN
@@ -2388,7 +2390,7 @@ F 3 "~" H 13800 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R213
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:R-Device R213
 U 1 1 5CD359E8
 P 13600 1150
 F 0 "R213" V 13700 1050 50  0000 L CNN
@@ -2399,7 +2401,7 @@ F 3 "~" H 13600 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R208
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:R-Device R208
 U 1 1 5CD35CF0
 P 13400 1150
 F 0 "R208" V 13500 1050 50  0000 L CNN
@@ -2426,7 +2428,7 @@ Wire Wire Line
 Wire Wire Line
 	13400 1950 13400 1300
 $Comp
-L Device:R R207
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:R-Device R207
 U 1 1 5CD5953D
 P 13200 1150
 F 0 "R207" V 13300 1050 50  0000 L CNN
@@ -2466,7 +2468,7 @@ Wire Wire Line
 	13050 1450 13800 1450
 Connection ~ 13800 1450
 $Comp
-L power:+3.3V #PWR0217
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3V-power #PWR0217
 U 1 1 5CD90DE2
 P 13800 900
 F 0 "#PWR0217" H 13800 750 50  0001 C CNN
@@ -2500,7 +2502,7 @@ Wire Wire Line
 Wire Wire Line
 	13800 950  13800 900 
 $Comp
-L power:GND #PWR0221
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR0221
 U 1 1 5CDDB551
 P 13850 2550
 F 0 "#PWR0221" H 13850 2300 50  0001 C CNN
@@ -2523,7 +2525,7 @@ Connection ~ 13850 2500
 Wire Wire Line
 	13850 2500 13850 2450
 $Comp
-L power:+3.3V #PWR0220
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3V-power #PWR0220
 U 1 1 5CDFA4B1
 P 13350 2150
 F 0 "#PWR0220" H 13350 2000 50  0001 C CNN
@@ -2553,7 +2555,7 @@ Wire Wire Line
 Wire Wire Line
 	13600 5000 13450 5000
 $Comp
-L power:+24V #PWR0158
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+24V-power #PWR0158
 U 1 1 5D2616F2
 P 2350 7150
 F 0 "#PWR0158" H 2350 7000 50  0001 C CNN
@@ -2573,7 +2575,7 @@ Wire Wire Line
 	2350 7300 2300 7300
 Connection ~ 2350 7200
 $Comp
-L power:+24V #PWR0160
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+24V-power #PWR0160
 U 1 1 5D281E1A
 P 1750 7150
 F 0 "#PWR0160" H 1750 7000 50  0001 C CNN
@@ -2593,7 +2595,7 @@ Wire Wire Line
 	1750 7300 1750 7200
 Connection ~ 1750 7200
 $Comp
-L power:GND #PWR0161
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR0161
 U 1 1 5D2A22BA
 P 2350 9150
 F 0 "#PWR0161" H 2350 8900 50  0001 C CNN
@@ -2613,7 +2615,7 @@ Connection ~ 2350 9100
 Wire Wire Line
 	2350 9100 2350 9000
 $Comp
-L power:GND #PWR0162
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR0162
 U 1 1 5D2C3C1C
 P 1750 9150
 F 0 "#PWR0162" H 1750 8900 50  0001 C CNN
@@ -2643,7 +2645,7 @@ Wire Wire Line
 	1750 8900 1800 8900
 Connection ~ 1750 9000
 $Comp
-L power:+3.3V #PWR0163
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3V-power #PWR0163
 U 1 1 5D30C34E
 P 2400 7500
 F 0 "#PWR0163" H 2400 7350 50  0001 C CNN
@@ -2656,7 +2658,7 @@ $EndComp
 Wire Wire Line
 	2400 7500 2300 7500
 $Comp
-L power:+3.3V #PWR0168
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3V-power #PWR0168
 U 1 1 5D31F608
 P 1700 7500
 F 0 "#PWR0168" H 1700 7350 50  0001 C CNN
@@ -2731,7 +2733,7 @@ Wire Wire Line
 Wire Wire Line
 	13600 5100 13450 5100
 $Comp
-L Device:C C210
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:C-Device C210
 U 1 1 5CC15821
 P 3300 10550
 F 0 "C210" H 3415 10596 50  0000 L CNN
@@ -2742,7 +2744,7 @@ F 3 "~" H 3300 10550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0228
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR0228
 U 1 1 5CC1582B
 P 3300 10800
 F 0 "#PWR0228" H 3300 10550 50  0001 C CNN
@@ -2753,7 +2755,7 @@ F 3 "" H 3300 10800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0226
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3V-power #PWR0226
 U 1 1 5CC15835
 P 3300 10300
 F 0 "#PWR0226" H 3300 10150 50  0001 C CNN
@@ -2764,7 +2766,7 @@ F 3 "" H 3300 10300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C211
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:C-Device C211
 U 1 1 5CC1583F
 P 3700 10550
 F 0 "C211" H 3815 10596 50  0000 L CNN
@@ -2775,7 +2777,7 @@ F 3 "~" H 3700 10550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0229
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR0229
 U 1 1 5CC15849
 P 3700 10800
 F 0 "#PWR0229" H 3700 10550 50  0001 C CNN
@@ -2786,7 +2788,7 @@ F 3 "" H 3700 10800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0227
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3V-power #PWR0227
 U 1 1 5CC15853
 P 3700 10300
 F 0 "#PWR0227" H 3700 10150 50  0001 C CNN
@@ -2805,7 +2807,7 @@ Wire Wire Line
 Wire Wire Line
 	3300 10800 3300 10700
 $Comp
-L Device:C C212
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:C-Device C212
 U 1 1 5CCB464D
 P 4100 10550
 F 0 "C212" H 4215 10596 50  0000 L CNN
@@ -2816,7 +2818,7 @@ F 3 "~" H 4100 10550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0232
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR0232
 U 1 1 5CCB4657
 P 4100 10800
 F 0 "#PWR0232" H 4100 10550 50  0001 C CNN
@@ -2827,7 +2829,7 @@ F 3 "" H 4100 10800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C213
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:C-Device C213
 U 1 1 5CCB466B
 P 4500 10550
 F 0 "C213" H 4615 10596 50  0000 L CNN
@@ -2838,7 +2840,7 @@ F 3 "~" H 4500 10550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0233
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR0233
 U 1 1 5CCB4675
 P 4500 10800
 F 0 "#PWR0233" H 4500 10550 50  0001 C CNN
@@ -2857,7 +2859,7 @@ Wire Wire Line
 Wire Wire Line
 	4100 10800 4100 10700
 $Comp
-L power:+5V #PWR0230
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+5V-power #PWR0230
 U 1 1 5CCCC2B0
 P 4100 10300
 F 0 "#PWR0230" H 4100 10150 50  0001 C CNN
@@ -2868,7 +2870,7 @@ F 3 "" H 4100 10300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0231
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+5V-power #PWR0231
 U 1 1 5CCCD1DB
 P 4500 10300
 F 0 "#PWR0231" H 4500 10150 50  0001 C CNN
@@ -2889,7 +2891,7 @@ Wire Wire Line
 Connection ~ 14600 8700
 Connection ~ 14800 8800
 $Comp
-L Device:R R217
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:R-Device R217
 U 1 1 5CDCD7F7
 P 11850 8500
 F 0 "R217" V 11950 8500 50  0000 C CNN
@@ -2904,7 +2906,7 @@ Wire Wire Line
 Wire Wire Line
 	14250 8500 15200 8500
 $Comp
-L Device:R R202
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:R-Device R202
 U 1 1 5CDABFCE
 P 900 5550
 F 0 "R202" H 970 5596 50  0000 L CNN
@@ -2915,7 +2917,7 @@ F 3 "~" H 900 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D201
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:LED-Device D201
 U 1 1 5CDABFD4
 P 900 5950
 F 0 "D201" V 939 5833 50  0000 R CNN
@@ -2928,7 +2930,7 @@ $EndComp
 Wire Wire Line
 	900  5700 900  5800
 $Comp
-L Connector_Generic:Conn_02x20_Odd_Even J203
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:Conn_02x20_Odd_Even-Connector_Generic J203
 U 1 1 5CCA330B
 P 2000 8100
 F 0 "J203" H 2050 9450 50  0000 C CNN
@@ -2939,7 +2941,7 @@ F 3 "~" H 2000 8100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C214
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:C-Device C214
 U 1 1 5CE6D10B
 P 4950 10550
 F 0 "C214" H 5065 10596 50  0000 L CNN
@@ -2950,7 +2952,7 @@ F 3 "~" H 4950 10550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0235
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR0235
 U 1 1 5CE6D115
 P 4950 10800
 F 0 "#PWR0235" H 4950 10550 50  0001 C CNN
@@ -2965,7 +2967,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 10800 4950 10700
 $Comp
-L power:+3.3VA #PWR?
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3VA-power #PWR?
 U 1 1 5CE9FD57
 P 4950 10300
 AR Path="/5CE9FD57" Ref="#PWR?"  Part="1" 
@@ -3050,7 +3052,7 @@ Wire Wire Line
 NoConn ~ 2400 7400
 NoConn ~ 1700 7400
 $Comp
-L power:+3.3V #PWR0173
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3V-power #PWR0173
 U 1 1 5CD063D1
 P 14800 5350
 F 0 "#PWR0173" H 14800 5200 50  0001 C CNN
@@ -3061,7 +3063,7 @@ F 3 "" H 14800 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0187
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3V-power #PWR0187
 U 1 1 5CD069D4
 P 14800 6750
 F 0 "#PWR0187" H 14800 6600 50  0001 C CNN
@@ -3074,7 +3076,7 @@ $EndComp
 Text GLabel 13450 4900 0    50   Input ~ 0
 SCK
 $Comp
-L Device:R R218
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:R-Device R218
 U 1 1 5CEF3625
 P 1300 5550
 F 0 "R218" H 1370 5596 50  0000 L CNN
@@ -3085,7 +3087,7 @@ F 3 "~" H 1300 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D202
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:LED-Device D202
 U 1 1 5CEF362F
 P 1300 5950
 F 0 "D202" V 1339 5833 50  0000 R CNN
@@ -3098,7 +3100,7 @@ $EndComp
 Wire Wire Line
 	1300 5700 1300 5800
 $Comp
-L Device:R R219
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:R-Device R219
 U 1 1 5CF13CB8
 P 1700 5550
 F 0 "R219" H 1770 5596 50  0000 L CNN
@@ -3109,7 +3111,7 @@ F 3 "~" H 1700 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D203
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:LED-Device D203
 U 1 1 5CF13CC2
 P 1700 5950
 F 0 "D203" V 1739 5833 50  0000 R CNN
@@ -3122,7 +3124,7 @@ $EndComp
 Wire Wire Line
 	1700 5700 1700 5800
 $Comp
-L power:GND #PWR0194
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR0194
 U 1 1 5CF54C9D
 P 900 6200
 F 0 "#PWR0194" H 900 5950 50  0001 C CNN
@@ -3135,7 +3137,7 @@ $EndComp
 Wire Wire Line
 	900  6200 900  6100
 $Comp
-L power:GND #PWR0198
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR0198
 U 1 1 5CF75AD3
 P 1300 6200
 F 0 "#PWR0198" H 1300 5950 50  0001 C CNN
@@ -3148,7 +3150,7 @@ $EndComp
 Wire Wire Line
 	1300 6200 1300 6100
 $Comp
-L power:GND #PWR0199
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR0199
 U 1 1 5CF96A3E
 P 1700 6200
 F 0 "#PWR0199" H 1700 5950 50  0001 C CNN
@@ -3181,7 +3183,7 @@ Wire Wire Line
 Wire Wire Line
 	14000 1350 13050 1350
 $Comp
-L power:GND #PWR?
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR?
 U 1 1 5CEED6C8
 P 5350 10800
 AR Path="/5CA3CC17/5CEED6C8" Ref="#PWR?"  Part="1" 
@@ -3198,7 +3200,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 10800 5350 10700
 $Comp
-L Device:CP C?
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:CP-Device C?
 U 1 1 5CEED6D0
 P 5350 10550
 AR Path="/5CA3CC17/5CEED6D0" Ref="C?"  Part="1" 
@@ -3211,7 +3213,7 @@ F 3 "~" H 5350 10550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3VA #PWR?
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3VA-power #PWR?
 U 1 1 5CF12019
 P 5350 10300
 AR Path="/5CF12019" Ref="#PWR?"  Part="1" 
@@ -3224,7 +3226,7 @@ F 3 "" H 5350 10300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW202
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:SW_Push-Switch SW202
 U 1 1 5CFFF2E3
 P 2650 5850
 F 0 "SW202" V 2800 6050 50  0000 C CNN
@@ -3235,7 +3237,7 @@ F 3 "~" H 2650 6050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C215
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:C-Device C215
 U 1 1 5CFFF2ED
 P 2950 5850
 F 0 "C215" H 2750 5950 50  0000 C CNN
@@ -3246,7 +3248,7 @@ F 3 "~" H 2950 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0240
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR0240
 U 1 1 5CFFF2F7
 P 2950 6200
 F 0 "#PWR0240" H 2950 5950 50  0001 C CNN
@@ -3273,7 +3275,7 @@ Wire Wire Line
 Connection ~ 2950 6100
 Connection ~ 2950 5600
 $Comp
-L Device:R R233
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:R-Device R233
 U 1 1 5CFFF30B
 P 2950 5400
 F 0 "R233" H 3020 5446 50  0000 L CNN
@@ -3286,7 +3288,7 @@ $EndComp
 Wire Wire Line
 	2950 5600 2950 5550
 $Comp
-L power:+3.3V #PWR0238
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3V-power #PWR0238
 U 1 1 5CFFF316
 P 2950 5200
 F 0 "#PWR0238" H 2950 5050 50  0001 C CNN
@@ -3299,7 +3301,7 @@ $EndComp
 Wire Wire Line
 	2950 5200 2950 5250
 $Comp
-L Switch:SW_Push SW203
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:SW_Push-Switch SW203
 U 1 1 5D051793
 P 4000 5850
 F 0 "SW203" V 4150 6050 50  0000 C CNN
@@ -3310,7 +3312,7 @@ F 3 "~" H 4000 6050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C216
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:C-Device C216
 U 1 1 5D05179D
 P 4300 5850
 F 0 "C216" H 4100 5950 50  0000 C CNN
@@ -3321,7 +3323,7 @@ F 3 "~" H 4300 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0241
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR0241
 U 1 1 5D0517A7
 P 4300 6200
 F 0 "#PWR0241" H 4300 5950 50  0001 C CNN
@@ -3348,7 +3350,7 @@ Wire Wire Line
 Connection ~ 4300 6100
 Connection ~ 4300 5600
 $Comp
-L Device:R R234
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:R-Device R234
 U 1 1 5D0517BA
 P 4300 5400
 F 0 "R234" H 4370 5446 50  0000 L CNN
@@ -3361,7 +3363,7 @@ $EndComp
 Wire Wire Line
 	4300 5600 4300 5550
 $Comp
-L power:+3.3V #PWR0239
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3V-power #PWR0239
 U 1 1 5D0517C5
 P 4300 5200
 F 0 "#PWR0239" H 4300 5050 50  0001 C CNN
@@ -3382,7 +3384,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 5600 2950 5600
 $Comp
-L power:GND #PWR?
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR?
 U 1 1 5D104A0D
 P 6150 10800
 AR Path="/5CA3CC17/5D104A0D" Ref="#PWR?"  Part="1" 
@@ -3399,7 +3401,7 @@ Wire Wire Line
 Wire Wire Line
 	6150 10800 6150 10700
 $Comp
-L Device:CP C?
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:CP-Device C?
 U 1 1 5D104A19
 P 6150 10550
 AR Path="/5CA3CC17/5D104A19" Ref="C?"  Part="1" 
@@ -3412,7 +3414,7 @@ F 3 "~" H 6150 10550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0243
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3V-power #PWR0243
 U 1 1 5D134272
 P 6150 10300
 F 0 "#PWR0243" H 6150 10150 50  0001 C CNN
@@ -3427,7 +3429,7 @@ VDD3 (Pin 144)
 Text GLabel 6750 1900 0    50   Input ~ 0
 NRST
 $Comp
-L Device:R R227
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:R-Device R227
 U 1 1 5D27ADD7
 P 2200 1900
 F 0 "R227" V 2300 1900 50  0000 C CNN
@@ -3438,7 +3440,7 @@ F 3 "~" H 2200 1900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R229
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:R-Device R229
 U 1 1 5D27B53C
 P 2200 2100
 F 0 "R229" V 2300 2100 50  0000 C CNN
@@ -3451,7 +3453,7 @@ $EndComp
 Text HLabel 1850 2100 0    50   Input ~ 0
 STM32_NRST
 $Comp
-L power:GND #PWR0105
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR0105
 U 1 1 5CA449BD
 P 8500 9100
 F 0 "#PWR0105" H 8500 8850 50  0001 C CNN
@@ -3462,7 +3464,7 @@ F 3 "" H 8500 9100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0106
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3V-power #PWR0106
 U 1 1 5CA449F4
 P 8600 1300
 F 0 "#PWR0106" H 8600 1150 50  0001 C CNN
@@ -3589,7 +3591,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 1300 8600 1450
 $Comp
-L MCU_ST_STM32F1:STM32F103ZETx U201
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:STM32F103ZETx-MCU_ST_STM32F1 U201
 U 1 1 5CA44B89
 P 8400 5200
 F 0 "U201" H 7400 1700 50  0000 C CNN
@@ -3869,7 +3871,7 @@ Wire Wire Line
 Text Label 10250 3800 0    50   ~ 0
 STM_BOOT1
 $Comp
-L power:+3.3VA #PWR0123
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3VA-power #PWR0123
 U 1 1 5CC3E783
 P 9200 1300
 F 0 "#PWR0123" H 9200 1150 50  0001 C CNN
@@ -3882,7 +3884,7 @@ $EndComp
 Wire Wire Line
 	9200 1300 9200 1600
 $Comp
-L Switch:SW_Push SW201
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:SW_Push-Switch SW201
 U 1 1 5CC66836
 P 3300 2150
 F 0 "SW201" V 3450 2350 50  0000 C CNN
@@ -3895,7 +3897,7 @@ $EndComp
 Text Label 6500 2100 0    50   ~ 0
 STM_BOOT0
 $Comp
-L Device:C C201
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:C-Device C201
 U 1 1 5CC6C462
 P 3000 2150
 F 0 "C201" H 2800 2250 50  0000 C CNN
@@ -3906,7 +3908,7 @@ F 3 "~" H 3000 2150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0128
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR0128
 U 1 1 5CC7D4BC
 P 3000 2500
 F 0 "#PWR0128" H 3000 2250 50  0001 C CNN
@@ -3933,7 +3935,7 @@ Wire Wire Line
 Connection ~ 3000 2400
 Connection ~ 3000 1900
 $Comp
-L Device:R R201
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:R-Device R201
 U 1 1 5CCA083F
 P 3000 1700
 F 0 "R201" H 3070 1746 50  0000 L CNN
@@ -3946,7 +3948,7 @@ $EndComp
 Wire Wire Line
 	3000 1900 3000 1850
 $Comp
-L power:+3.3V #PWR0129
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3V-power #PWR0129
 U 1 1 5CCA5EDE
 P 3000 1500
 F 0 "#PWR0129" H 3000 1350 50  0001 C CNN
@@ -3961,7 +3963,7 @@ Wire Wire Line
 Text Label 6150 3150 0    50   ~ 0
 RCC_OSC_IN
 $Comp
-L Oscillator:SG-210STF X201
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:SG-210STF-Oscillator X201
 U 1 1 5CBE7246
 P 5850 3150
 F 0 "X201" H 5900 3400 50  0000 L CNN
@@ -3975,7 +3977,7 @@ Wire Wire Line
 	6150 3150 6650 3150
 NoConn ~ 7100 2700
 $Comp
-L power:+3.3V #PWR0207
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3V-power #PWR0207
 U 1 1 5CC1531A
 P 5850 2800
 F 0 "#PWR0207" H 5850 2650 50  0001 C CNN
@@ -3988,7 +3990,7 @@ $EndComp
 Wire Wire Line
 	5850 2800 5850 2850
 $Comp
-L power:GND #PWR0211
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR0211
 U 1 1 5CC1B490
 P 5850 3500
 F 0 "#PWR0211" H 5850 3250 50  0001 C CNN
@@ -4293,7 +4295,7 @@ Wire Wire Line
 Wire Wire Line
 	9700 3800 10750 3800
 $Comp
-L Device:R R230
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:R-Device R230
 U 1 1 5D139EC3
 P 10300 2600
 F 0 "R230" H 10370 2646 50  0000 L CNN
@@ -4304,7 +4306,7 @@ F 3 "~" H 10300 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R231
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:R-Device R231
 U 1 1 5D13B3B6
 P 10600 2600
 F 0 "R231" H 10670 2646 50  0000 L CNN
@@ -4329,7 +4331,7 @@ Connection ~ 10300 2900
 Wire Wire Line
 	10300 2900 10650 2900
 $Comp
-L power:+3.3V #PWR0224
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3V-power #PWR0224
 U 1 1 5D1E99A9
 P 10600 2350
 F 0 "#PWR0224" H 10600 2200 50  0001 C CNN
@@ -4367,7 +4369,7 @@ MOSI
 Wire Notes Line
 	16050 7200 11800 7200
 $Comp
-L power:GND #PWR?
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR?
 U 1 1 5D7662BF
 P 6550 10800
 AR Path="/5CA3CC17/5D7662BF" Ref="#PWR?"  Part="1" 
@@ -4384,7 +4386,7 @@ Wire Wire Line
 Wire Wire Line
 	6550 10800 6550 10700
 $Comp
-L Device:CP C?
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:CP-Device C?
 U 1 1 5D7662CB
 P 6550 10550
 AR Path="/5CA3CC17/5D7662CB" Ref="C?"  Part="1" 
@@ -4397,7 +4399,7 @@ F 3 "~" H 6550 10550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0244
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3V-power #PWR0244
 U 1 1 5D7662D5
 P 6550 10300
 F 0 "#PWR0244" H 6550 10150 50  0001 C CNN
@@ -4408,9 +4410,9 @@ F 3 "" H 6550 10300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 6600 10000 1    50   ~ 0
-SD Card
+SD card
 $Comp
-L Device:C C220
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:C-Device C220
 U 1 1 5D7A4055
 P 6950 10550
 F 0 "C220" H 7065 10596 50  0000 L CNN
@@ -4421,7 +4423,7 @@ F 3 "~" H 6950 10550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0250
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR0250
 U 1 1 5D7A405F
 P 6950 10800
 F 0 "#PWR0250" H 6950 10550 50  0001 C CNN
@@ -4432,7 +4434,7 @@ F 3 "" H 6950 10800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0245
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3V-power #PWR0245
 U 1 1 5D7A4069
 P 6950 10300
 F 0 "#PWR0245" H 6950 10150 50  0001 C CNN
@@ -4453,7 +4455,7 @@ SERVO_1
 Text HLabel 9900 7700 2    50   Input ~ 0
 SERVO_2
 $Comp
-L Device:R R211
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:R-Device R211
 U 1 1 5CD05002
 P 11850 8900
 F 0 "R211" V 11450 8900 50  0000 C CNN
@@ -4470,7 +4472,7 @@ STM32_BOOT_0
 Text Label 4100 4200 0    50   ~ 0
 STM_BOOT0
 $Comp
-L Device:R R237
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:R-Device R237
 U 1 1 5D9F35C7
 P 3550 4350
 F 0 "R237" H 3620 4396 50  0000 L CNN
@@ -4482,7 +4484,7 @@ F 3 "~" H 3550 4350 50  0001 C CNN
 $EndComp
 Connection ~ 3550 4200
 $Comp
-L power:GND #PWR0256
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR0256
 U 1 1 5DAAE554
 P 3550 4500
 F 0 "#PWR0256" H 3550 4250 50  0001 C CNN
@@ -4493,7 +4495,7 @@ F 3 "" H 3550 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:BAT54S D208
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:BAT54S-Diode D208
 U 1 1 5DB71461
 P 14250 8300
 F 0 "D208" H 14250 8525 50  0000 C CNN
@@ -4511,7 +4513,7 @@ Wire Wire Line
 	13300 8500 14250 8500
 Connection ~ 14250 8500
 $Comp
-L power:GND #PWR0257
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR0257
 U 1 1 5DBD22E3
 P 13950 8300
 F 0 "#PWR0257" H 13950 8050 50  0001 C CNN
@@ -4528,7 +4530,7 @@ Wire Wire Line
 Text GLabel 9900 8000 2    50   Input ~ 0
 BTN_USER_1
 $Comp
-L power:+3.3V #PWR0258
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3V-power #PWR0258
 U 1 1 5DD9B5CA
 P 12700 8150
 F 0 "#PWR0258" H 12700 8000 50  0001 C CNN
@@ -4539,7 +4541,7 @@ F 3 "" H 12700 8150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:BAT54C D204
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:BAT54C-Diode D204
 U 1 1 5DC72C6F
 P 12700 8600
 F 0 "D204" H 12450 8500 50  0000 C CNN
@@ -4550,7 +4552,7 @@ F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 12620 8600 50  0001 
 	1    0    0    1   
 $EndComp
 $Comp
-L Diode:BAT54A D205
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:BAT54A-Diode D205
 U 1 1 5DE2F0B7
 P 12700 8750
 F 0 "D205" H 12950 8650 50  0000 C CNN
@@ -4594,7 +4596,7 @@ Wire Wire Line
 Wire Wire Line
 	12700 8950 12700 9450
 $Comp
-L power:GND #PWR0260
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR0260
 U 1 1 5E0259FF
 P 12700 9450
 F 0 "#PWR0260" H 12700 9200 50  0001 C CNN
@@ -4631,7 +4633,7 @@ Wire Wire Line
 Wire Wire Line
 	12200 8500 12000 8500
 $Comp
-L power:+3.3V #PWR0259
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3V-power #PWR0259
 U 1 1 5E2065FE
 P 13650 8150
 F 0 "#PWR0259" H 13650 8000 50  0001 C CNN
@@ -4642,7 +4644,7 @@ F 3 "" H 13650 8150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0261
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR0261
 U 1 1 5E23BDA9
 P 13650 9450
 F 0 "#PWR0261" H 13650 9200 50  0001 C CNN
@@ -4688,7 +4690,7 @@ Wire Wire Line
 Wire Wire Line
 	13650 8150 13650 8850
 $Comp
-L Diode:BAT54A D207
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:BAT54A-Diode D207
 U 1 1 5E030264
 P 13650 9200
 F 0 "D207" H 13350 9100 50  0000 C CNN
@@ -4699,7 +4701,7 @@ F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 13530 9200 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:BAT54C D206
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:BAT54C-Diode D206
 U 1 1 5E02ACA6
 P 13650 9050
 F 0 "D206" H 13950 8950 50  0000 C CNN
@@ -4712,7 +4714,7 @@ $EndComp
 Wire Wire Line
 	3550 4200 4100 4200
 $Comp
-L Device:R R221
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:R-Device R221
 U 1 1 5CE16C95
 P 3350 4200
 F 0 "R221" V 3450 4200 50  0000 C CNN
@@ -4733,7 +4735,7 @@ EXP3_LCD_Encoder_A
 Text GLabel 1850 1700 0    50   Input ~ 0
 LCD_Reset
 $Comp
-L Device:R R220
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:R-Device R220
 U 1 1 5CE8FA9A
 P 2200 1700
 F 0 "R220" V 2300 1700 50  0000 C CNN
@@ -4776,7 +4778,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 3550 4100 3550
 $Comp
-L power:GND #PWR0255
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR0255
 U 1 1 5DA5126B
 P 3550 3850
 F 0 "#PWR0255" H 3550 3600 50  0001 C CNN
@@ -4787,7 +4789,7 @@ F 3 "" H 3550 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R236
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:R-Device R236
 U 1 1 5D9F3EBD
 P 3550 3700
 F 0 "R236" H 3620 3746 50  0000 L CNN
@@ -4915,7 +4917,7 @@ Wire Wire Line
 Text GLabel 5750 7200 0    50   Input ~ 0
 LCD_Reset
 $Comp
-L Device:R R222
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:R-Device R222
 U 1 1 5CCE79DA
 P 6100 7200
 F 0 "R222" V 6200 7200 50  0000 C CNN
@@ -4930,7 +4932,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 7200 6250 7200
 $Comp
-L power:+3.3VA #PWR0267
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:+3.3VA-power #PWR0267
 U 1 1 5CDF6C38
 P 6950 2300
 F 0 "#PWR0267" H 6950 2150 50  0001 C CNN
@@ -4943,7 +4945,7 @@ $EndComp
 Wire Wire Line
 	7100 2300 6950 2300
 $Comp
-L power:GND #PWR0268
+L FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue:GND-power #PWR0268
 U 1 1 5CE3885D
 P 7050 2400
 F 0 "#PWR0268" H 7050 2150 50  0001 C CNN
@@ -4988,4 +4990,54 @@ Text Notes 7550 4850 0    50   ~ 0
 INT
 Text Notes 7550 5050 0    50   ~ 0
 INT
+Text Notes 4550 10000 1    50   ~ 0
+Level shifter
+Text Notes 4150 10000 1    50   ~ 0
+Level shifter
+Text Notes 3750 10000 1    50   ~ 0
+Level shifter
+Text Notes 3350 10000 1    50   ~ 0
+Level shifter
+Text Notes 2900 10000 1    50   ~ 0
+SD card
+Text Notes 5000 10000 1    50   ~ 0
+Analog
+Text Notes 5400 10000 1    50   ~ 0
+Analog
+Text Notes 1150 9950 0    50   ~ 10
+6 bypass capacitors missing!
+Text Notes 2650 7200 0    50   ~ 10
+Analog reference is missing.
+Text Notes 1150 9150 0    50   ~ 10
+EXT2 (new)
+Text Notes 2600 9150 0    50   ~ 10
+EXT1 (new)
+Text Notes 1100 9500 0    50   ~ 10
+EXT1 and EXT2 exchanged (fixed in the firmware)
+Text Notes 14450 3500 0    50   ~ 10
+Wrongly labeled as EXT3 on the PCB.
+Text Notes 12850 2650 0    50   ~ 10
+SD inserted     => 0\nSD not inserted => 1
+Text Notes 12200 5000 0    50   ~ 10
+Probably not the actual\nMOSI and SCK pins.\nTesting needed!
+Text Notes 1200 3150 0    50   ~ 10
+either R220 or R222 have to be populated,\n=> R220 will probably work fine
+Text Notes 1900 1900 0    50   ~ 10
+DNP
+Text Notes 5950 7350 0    50   ~ 10
+DNP
+Text Notes 11800 9850 0    50   ~ 10
+Could have used another bypass capacitor.
+Text Notes 1850 6150 0    50   ~ 10
+YELLOW
+Text Notes 1400 6150 0    50   ~ 10
+YELLOW
+Text Notes 1000 6150 0    50   ~ 10
+GREEN
+Text Notes 3050 4350 0    50   ~ 10
+DNP*
+Text Notes 1950 2250 0    50   ~ 10
+DNP*
+Text Notes 1200 3550 0    50   ~ 10
+*) will be populated once ensured the ESP32\n   will not pull those pins high/low unexpectedly
 $EndSCHEMATC

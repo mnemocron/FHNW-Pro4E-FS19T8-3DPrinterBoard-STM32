@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name FHNW-Pro4E-FS19T8-Library)(type Legacy)(uri ${KIPRJMOD}/FHNW-Pro4E-FS19T8-Library.lib)(options "")(descr ""))
+  (lib (name FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue)(type Legacy)(uri ${KIPRJMOD}/FHNW-Pro4E-FS19T8-3DPrinterBoard-STM32-rescue.lib)(options "")(descr ""))
 )
