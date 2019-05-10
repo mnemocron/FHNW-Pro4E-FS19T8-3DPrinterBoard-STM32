@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 6
-Title ""
-Date ""
-Rev "1"
-Comp ""
+Title "ESP32 Wroom Module"
+Date "2019-05-10"
+Rev "1.1"
+Comp "FHNW University of Applied Sciences"
 Comment1 "EIT Pro4 FS19 Team 8"
 Comment2 ""
 Comment3 ""
@@ -2220,4 +2220,6 @@ Wire Wire Line
 	5850 2900 5650 2900
 Wire Wire Line
 	5850 2700 5650 2700
+Text Notes 8050 3750 0    50   ~ 0
+DTR RTS => EN IO0\n-------------\n 1   1        1  1\n 0   0        1  1\n 1   0        0  1\n 0   1        1  0
 $EndSCHEMATC
