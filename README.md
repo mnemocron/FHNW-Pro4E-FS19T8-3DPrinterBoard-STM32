@@ -33,7 +33,7 @@ FS 2019 - Projekt 4 - Team 8
 
 ### Microcontroller
 
-![STM32Logo](bitmap/STM32-Logo.png)
+![STM32Logo](bitmap/stm32_logo.jpg)
 
 `stm32 stm32F103ZEt6`
 
